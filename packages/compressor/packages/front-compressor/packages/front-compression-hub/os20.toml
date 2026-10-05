@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/front-compression-hub"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/front-compression-hub version 1.0.0. Geometry files: Front Compression Hub - JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-frontcompressionhub"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/behavior/FrontCompressionHub.scxml"
+
+[[artifacts]]
+name = "behavior-frontcompressionhubjetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/behavior/FrontCompressionHubJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-front-compression-hub-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/geometry/Front Compression Hub - JET v3.stl"
+
+[[artifacts]]
+name = "materials-frontcompressionhub"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/materials/FrontCompressionHub.toml"
+
+[[artifacts]]
+name = "materials-frontcompressionhubjetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/materials/FrontCompressionHubJETV3.toml"
+
+[[artifacts]]
+name = "model-frontcompressionhub"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/model/FrontCompressionHub.sysml"
+
+[[artifacts]]
+name = "model-frontcompressionhubjetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-hub/model/FrontCompressionHubJETV3.sysml"

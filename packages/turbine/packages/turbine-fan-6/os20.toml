@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/turbine-fan-6"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/turbine-fan-6 version 1.0.0. Geometry files: Turbine Fan-6- JET v2.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-turbinefan6"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/behavior/TurbineFan6.scxml"
+
+[[artifacts]]
+name = "behavior-turbinefan6jetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/behavior/TurbineFan6JETV2.scxml"
+
+[[artifacts]]
+name = "geometry-turbine-fan-6-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/geometry/Turbine Fan-6- JET v2.stl"
+
+[[artifacts]]
+name = "materials-turbinefan6"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/materials/TurbineFan6.toml"
+
+[[artifacts]]
+name = "materials-turbinefan6jetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/materials/TurbineFan6JETV2.toml"
+
+[[artifacts]]
+name = "model-turbinefan6"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/model/TurbineFan6.sysml"
+
+[[artifacts]]
+name = "model-turbinefan6jetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-fan-6"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-fan-6/model/TurbineFan6JETV2.sysml"

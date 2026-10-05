@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/turbine-shaft"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/turbine-shaft version 1.0.0. Geometry files: Turbine Shaft- JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-turbineshaft"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/behavior/TurbineShaft.scxml"
+
+[[artifacts]]
+name = "behavior-turbineshaftjetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/behavior/TurbineShaftJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-turbine-shaft-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/geometry/Turbine Shaft- JET v3.stl"
+
+[[artifacts]]
+name = "materials-turbineshaft"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/materials/TurbineShaft.toml"
+
+[[artifacts]]
+name = "materials-turbineshaftjetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/materials/TurbineShaftJETV3.toml"
+
+[[artifacts]]
+name = "model-turbineshaft"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/model/TurbineShaft.sysml"
+
+[[artifacts]]
+name = "model-turbineshaftjetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-shaft/model/TurbineShaftJETV3.sysml"

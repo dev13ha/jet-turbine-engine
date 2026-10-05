@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/combustion-shell"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/combustion-shell version 1.0.0. Geometry files: Combustion Shell- JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-combustionshell"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/behavior/CombustionShell.scxml"
+
+[[artifacts]]
+name = "behavior-combustionshelljetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/behavior/CombustionShellJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-combustion-shell-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/geometry/Combustion Shell- JET v3.stl"
+
+[[artifacts]]
+name = "materials-combustionshell"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/materials/CombustionShell.toml"
+
+[[artifacts]]
+name = "materials-combustionshelljetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/materials/CombustionShellJETV3.toml"
+
+[[artifacts]]
+name = "model-combustionshell"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/model/CombustionShell.sysml"
+
+[[artifacts]]
+name = "model-combustionshelljetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-shell"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-shell/model/CombustionShellJETV3.sysml"

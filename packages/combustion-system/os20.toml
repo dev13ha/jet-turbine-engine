@@ -4,7 +4,7 @@
 
 [package]
 name = "@turbine-engine/combustion-system"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "assembly package @turbine-engine/combustion-system version 1.0.0. Geometry files: Combustion Chamber Assembly- JET v4.stl. Combustion Chamber Assembly is attached here as reference geometry for the combustion assembly. It does not replace the combustion child packages."
 
@@ -20,3 +20,123 @@ sysml = "2.0"
 "@turbine-engine/combustion-cap" = "@turbine-engine/combustion-cap@^1.0.0"
 "@turbine-engine/combustion-stage" = "@turbine-engine/combustion-stage@^1.0.0"
 "@turbine-engine/fuel-port-cap" = "@turbine-engine/fuel-port-cap@^1.0.0"
+
+[[artifacts]]
+name = "assembly-os20"
+kind = "assembly"
+format = "yaml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/assembly.os20.yaml"
+
+[[artifacts]]
+name = "behavior-combustionchamberassemblyjetv4"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/behavior/CombustionChamberAssemblyJETV4.scxml"
+
+[[artifacts]]
+name = "behavior-combustionsystem"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/behavior/CombustionSystem.scxml"
+
+[[artifacts]]
+name = "geometry-combustion-chamber-assembly-jet-v4"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/geometry/Combustion Chamber Assembly- JET v4.stl"
+
+[[artifacts]]
+name = "materials-combustionchamberassemblyjetv4"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/materials/CombustionChamberAssemblyJETV4.toml"
+
+[[artifacts]]
+name = "materials-combustionsystem"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/materials/CombustionSystem.toml"
+
+[[artifacts]]
+name = "model-combustionchamberassemblyjetv4"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/model/CombustionChamberAssemblyJETV4.sysml"
+
+[[artifacts]]
+name = "model-combustionsystem"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-system"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/model/CombustionSystem.sysml"

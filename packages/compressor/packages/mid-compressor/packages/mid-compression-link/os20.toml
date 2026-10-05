@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/mid-compression-link"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/mid-compression-link version 1.0.0. Geometry files: Mid Compression Link - JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-midcompressionlink"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/behavior/MidCompressionLink.scxml"
+
+[[artifacts]]
+name = "behavior-midcompressionlinkjetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/behavior/MidCompressionLinkJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-mid-compression-link-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/geometry/Mid Compression Link - JET v3.stl"
+
+[[artifacts]]
+name = "materials-midcompressionlink"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/materials/MidCompressionLink.toml"
+
+[[artifacts]]
+name = "materials-midcompressionlinkjetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/materials/MidCompressionLinkJETV3.toml"
+
+[[artifacts]]
+name = "model-midcompressionlink"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/model/MidCompressionLink.sysml"
+
+[[artifacts]]
+name = "model-midcompressionlinkjetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-link/model/MidCompressionLinkJETV3.sysml"

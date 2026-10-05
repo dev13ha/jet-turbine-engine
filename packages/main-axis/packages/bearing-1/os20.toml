@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/bearing-1"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/bearing-1 version 1.0.0. Geometry files: Bearing- JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-bearing1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/behavior/Bearing1.scxml"
+
+[[artifacts]]
+name = "behavior-bearingjetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/behavior/BearingJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-bearing-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/geometry/Bearing- JET v3.stl"
+
+[[artifacts]]
+name = "materials-bearing1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/materials/Bearing1.toml"
+
+[[artifacts]]
+name = "materials-bearingjetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/materials/BearingJETV3.toml"
+
+[[artifacts]]
+name = "model-bearing1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/model/Bearing1.sysml"
+
+[[artifacts]]
+name = "model-bearingjetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/bearing-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/bearing-1/model/BearingJETV3.sysml"

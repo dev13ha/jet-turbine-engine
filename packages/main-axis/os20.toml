@@ -4,7 +4,7 @@
 
 [package]
 name = "@turbine-engine/main-axis"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "assembly package @turbine-engine/main-axis version 1.0.0. Geometry files: Main Axis Assembly v11.stl."
 
@@ -17,3 +17,123 @@ sysml = "2.0"
 "@turbine-engine/bearing-1" = "@turbine-engine/bearing-1@^1.0.0"
 "@turbine-engine/bearing-2" = "@turbine-engine/bearing-2@^1.0.0"
 "@turbine-engine/turbine-axis-spacer" = "@turbine-engine/turbine-axis-spacer@^1.0.0"
+
+[[artifacts]]
+name = "assembly-os20"
+kind = "assembly"
+format = "yaml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/assembly.os20.yaml"
+
+[[artifacts]]
+name = "behavior-mainaxis"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/behavior/MainAxis.scxml"
+
+[[artifacts]]
+name = "behavior-mainaxisassemblyv11"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/behavior/MainAxisAssemblyV11.scxml"
+
+[[artifacts]]
+name = "geometry-main-axis-assembly-v11"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/geometry/Main Axis Assembly v11.stl"
+
+[[artifacts]]
+name = "materials-mainaxis"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/materials/MainAxis.toml"
+
+[[artifacts]]
+name = "materials-mainaxisassemblyv11"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/materials/MainAxisAssemblyV11.toml"
+
+[[artifacts]]
+name = "model-mainaxis"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/model/MainAxis.sysml"
+
+[[artifacts]]
+name = "model-mainaxisassemblyv11"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/main-axis"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/model/MainAxisAssemblyV11.sysml"

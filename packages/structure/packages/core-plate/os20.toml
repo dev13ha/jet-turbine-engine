@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/core-plate"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/core-plate version 1.0.0. Geometry files: Core Plate- JET v1.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-coreplate"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/behavior/CorePlate.scxml"
+
+[[artifacts]]
+name = "behavior-coreplatejetv1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/behavior/CorePlateJETV1.scxml"
+
+[[artifacts]]
+name = "geometry-core-plate-jet-v1"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/geometry/Core Plate- JET v1.stl"
+
+[[artifacts]]
+name = "materials-coreplate"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/materials/CorePlate.toml"
+
+[[artifacts]]
+name = "materials-coreplatejetv1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/materials/CorePlateJETV1.toml"
+
+[[artifacts]]
+name = "model-coreplate"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/model/CorePlate.sysml"
+
+[[artifacts]]
+name = "model-coreplatejetv1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/core-plate"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/core-plate/model/CorePlateJETV1.sysml"

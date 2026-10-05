@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/rear-compression-link"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/rear-compression-link version 1.0.0. Geometry files: Rear Compression Link - JET v8.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-rearcompressionlink"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/behavior/RearCompressionLink.scxml"
+
+[[artifacts]]
+name = "behavior-rearcompressionlinkjetv8"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/behavior/RearCompressionLinkJETV8.scxml"
+
+[[artifacts]]
+name = "geometry-rear-compression-link-jet-v8"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/geometry/Rear Compression Link - JET v8.stl"
+
+[[artifacts]]
+name = "materials-rearcompressionlink"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/materials/RearCompressionLink.toml"
+
+[[artifacts]]
+name = "materials-rearcompressionlinkjetv8"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/materials/RearCompressionLinkJETV8.toml"
+
+[[artifacts]]
+name = "model-rearcompressionlink"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/model/RearCompressionLink.sysml"
+
+[[artifacts]]
+name = "model-rearcompressionlinkjetv8"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-link"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-link/model/RearCompressionLinkJETV8.sysml"

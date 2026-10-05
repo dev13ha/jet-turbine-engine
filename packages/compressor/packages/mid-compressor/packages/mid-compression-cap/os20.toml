@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/mid-compression-cap"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/mid-compression-cap version 1.0.0. Geometry files: Mid Compression Cap - JET v1.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-midcompressioncap"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/behavior/MidCompressionCap.scxml"
+
+[[artifacts]]
+name = "behavior-midcompressioncapjetv1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/behavior/MidCompressionCapJETV1.scxml"
+
+[[artifacts]]
+name = "geometry-mid-compression-cap-jet-v1"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/geometry/Mid Compression Cap - JET v1.stl"
+
+[[artifacts]]
+name = "materials-midcompressioncap"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/materials/MidCompressionCap.toml"
+
+[[artifacts]]
+name = "materials-midcompressioncapjetv1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/materials/MidCompressionCapJETV1.toml"
+
+[[artifacts]]
+name = "model-midcompressioncap"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/model/MidCompressionCap.sysml"
+
+[[artifacts]]
+name = "model-midcompressioncapjetv1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-cap/model/MidCompressionCapJETV1.sysml"

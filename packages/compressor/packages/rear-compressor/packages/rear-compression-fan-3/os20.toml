@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/rear-compression-fan-3"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/rear-compression-fan-3 version 1.0.0. Geometry files: Rear Compression Fan-3- JET v9.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-rearcompressionfan3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/behavior/RearCompressionFan3.scxml"
+
+[[artifacts]]
+name = "behavior-rearcompressionfan3jetv9"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/behavior/RearCompressionFan3JETV9.scxml"
+
+[[artifacts]]
+name = "geometry-rear-compression-fan-3-jet-v9"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/geometry/Rear Compression Fan-3- JET v9.stl"
+
+[[artifacts]]
+name = "materials-rearcompressionfan3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/materials/RearCompressionFan3.toml"
+
+[[artifacts]]
+name = "materials-rearcompressionfan3jetv9"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/materials/RearCompressionFan3JETV9.toml"
+
+[[artifacts]]
+name = "model-rearcompressionfan3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/model/RearCompressionFan3.sysml"
+
+[[artifacts]]
+name = "model-rearcompressionfan3jetv9"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-fan-3"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-3/model/RearCompressionFan3JETV9.sysml"

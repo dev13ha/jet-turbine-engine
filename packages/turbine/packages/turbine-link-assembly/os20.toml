@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/turbine-link-assembly"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/turbine-link-assembly version 1.0.0. Geometry files: Turbine Link Assembly- JET v2.stl. Source filename contains Assembly. No child parts were identified, so this remains a leaf and does not replace @turbine-engine/turbine-link."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-turbinelinkassembly"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/behavior/TurbineLinkAssembly.scxml"
+
+[[artifacts]]
+name = "behavior-turbinelinkassemblyjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/behavior/TurbineLinkAssemblyJETV2.scxml"
+
+[[artifacts]]
+name = "geometry-turbine-link-assembly-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/geometry/Turbine Link Assembly- JET v2.stl"
+
+[[artifacts]]
+name = "materials-turbinelinkassembly"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/materials/TurbineLinkAssembly.toml"
+
+[[artifacts]]
+name = "materials-turbinelinkassemblyjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/materials/TurbineLinkAssemblyJETV2.toml"
+
+[[artifacts]]
+name = "model-turbinelinkassembly"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/model/TurbineLinkAssembly.sysml"
+
+[[artifacts]]
+name = "model-turbinelinkassemblyjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-link-assembly"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-link-assembly/model/TurbineLinkAssemblyJETV2.sysml"

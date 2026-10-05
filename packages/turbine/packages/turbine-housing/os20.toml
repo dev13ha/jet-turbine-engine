@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/turbine-housing"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/turbine-housing version 1.0.0. Geometry files: Turbine Housing- JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-turbinehousing"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/behavior/TurbineHousing.scxml"
+
+[[artifacts]]
+name = "behavior-turbinehousingjetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/behavior/TurbineHousingJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-turbine-housing-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/geometry/Turbine Housing- JET v3.stl"
+
+[[artifacts]]
+name = "materials-turbinehousing"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/materials/TurbineHousing.toml"
+
+[[artifacts]]
+name = "materials-turbinehousingjetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/materials/TurbineHousingJETV3.toml"
+
+[[artifacts]]
+name = "model-turbinehousing"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/model/TurbineHousing.sysml"
+
+[[artifacts]]
+name = "model-turbinehousingjetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-housing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-housing/model/TurbineHousingJETV3.sysml"

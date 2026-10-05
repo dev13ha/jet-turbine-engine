@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/front-compression-fan-1"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/front-compression-fan-1 version 1.0.0. Geometry files: Front Compression Fan-1- JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-frontcompressionfan1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/behavior/FrontCompressionFan1.scxml"
+
+[[artifacts]]
+name = "behavior-frontcompressionfan1jetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/behavior/FrontCompressionFan1JETV3.scxml"
+
+[[artifacts]]
+name = "geometry-front-compression-fan-1-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/geometry/Front Compression Fan-1- JET v3.stl"
+
+[[artifacts]]
+name = "materials-frontcompressionfan1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/materials/FrontCompressionFan1.toml"
+
+[[artifacts]]
+name = "materials-frontcompressionfan1jetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/materials/FrontCompressionFan1JETV3.toml"
+
+[[artifacts]]
+name = "model-frontcompressionfan1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/model/FrontCompressionFan1.sysml"
+
+[[artifacts]]
+name = "model-frontcompressionfan1jetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-1/model/FrontCompressionFan1JETV3.sysml"

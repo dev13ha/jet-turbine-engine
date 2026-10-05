@@ -4,7 +4,7 @@
 
 [package]
 name = "@turbine-engine/front-compressor"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "assembly package @turbine-engine/front-compressor version 1.0.0."
 
@@ -19,3 +19,63 @@ sysml = "2.0"
 "@turbine-engine/front-compression-fan-2" = "@turbine-engine/front-compression-fan-2@^1.0.0"
 "@turbine-engine/front-compression-fan-3" = "@turbine-engine/front-compression-fan-3@^1.0.0"
 "@turbine-engine/front-compression-fan-4" = "@turbine-engine/front-compression-fan-4@^1.0.0"
+
+[[artifacts]]
+name = "assembly-os20"
+kind = "assembly"
+format = "yaml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compressor"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/assembly.os20.yaml"
+
+[[artifacts]]
+name = "behavior-frontcompressor"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compressor"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/behavior/FrontCompressor.scxml"
+
+[[artifacts]]
+name = "materials-frontcompressor"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compressor"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/materials/FrontCompressor.toml"
+
+[[artifacts]]
+name = "model-frontcompressor"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compressor"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/model/FrontCompressor.sysml"

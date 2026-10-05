@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/flare-lever-1"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/flare-lever-1 version 1.0.0. Geometry files: Flare Lever-1 - JET v1.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-flarelever1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/behavior/FlareLever1.scxml"
+
+[[artifacts]]
+name = "behavior-flarelever1jetv1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/behavior/FlareLever1JETV1.scxml"
+
+[[artifacts]]
+name = "geometry-flare-lever-1-jet-v1"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/geometry/Flare Lever-1 - JET v1.stl"
+
+[[artifacts]]
+name = "materials-flarelever1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/materials/FlareLever1.toml"
+
+[[artifacts]]
+name = "materials-flarelever1jetv1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/materials/FlareLever1JETV1.toml"
+
+[[artifacts]]
+name = "model-flarelever1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/model/FlareLever1.sysml"
+
+[[artifacts]]
+name = "model-flarelever1jetv1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/flare-lever-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-lever-1/model/FlareLever1JETV1.sysml"

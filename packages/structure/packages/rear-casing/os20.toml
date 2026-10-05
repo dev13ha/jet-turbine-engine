@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/rear-casing"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/rear-casing version 1.0.0. Geometry files: Rear Casing - JET v20.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-rearcasing"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/behavior/RearCasing.scxml"
+
+[[artifacts]]
+name = "behavior-rearcasingjetv20"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/behavior/RearCasingJETV20.scxml"
+
+[[artifacts]]
+name = "geometry-rear-casing-jet-v20"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/geometry/Rear Casing - JET v20.stl"
+
+[[artifacts]]
+name = "materials-rearcasing"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/materials/RearCasing.toml"
+
+[[artifacts]]
+name = "materials-rearcasingjetv20"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/materials/RearCasingJETV20.toml"
+
+[[artifacts]]
+name = "model-rearcasing"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/model/RearCasing.sysml"
+
+[[artifacts]]
+name = "model-rearcasingjetv20"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-casing"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/packages/rear-casing/model/RearCasingJETV20.sysml"

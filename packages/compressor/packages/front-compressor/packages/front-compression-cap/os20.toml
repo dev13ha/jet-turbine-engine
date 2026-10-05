@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/front-compression-cap"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/front-compression-cap version 1.0.0. Geometry files: Front Compression Cap- JET v2.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-frontcompressioncap"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/behavior/FrontCompressionCap.scxml"
+
+[[artifacts]]
+name = "behavior-frontcompressioncapjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/behavior/FrontCompressionCapJETV2.scxml"
+
+[[artifacts]]
+name = "geometry-front-compression-cap-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/geometry/Front Compression Cap- JET v2.stl"
+
+[[artifacts]]
+name = "materials-frontcompressioncap"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/materials/FrontCompressionCap.toml"
+
+[[artifacts]]
+name = "materials-frontcompressioncapjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/materials/FrontCompressionCapJETV2.toml"
+
+[[artifacts]]
+name = "model-frontcompressioncap"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/model/FrontCompressionCap.sysml"
+
+[[artifacts]]
+name = "model-frontcompressioncapjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/front-compression-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/front-compressor/packages/front-compression-cap/model/FrontCompressionCapJETV2.sysml"

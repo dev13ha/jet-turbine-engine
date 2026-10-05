@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/mid-axis-cover"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/mid-axis-cover version 1.0.0. Geometry files: Mid Axis Cover - JET v2.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-midaxiscover"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/behavior/MidAxisCover.scxml"
+
+[[artifacts]]
+name = "behavior-midaxiscoverjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/behavior/MidAxisCoverJETV2.scxml"
+
+[[artifacts]]
+name = "geometry-mid-axis-cover-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/geometry/Mid Axis Cover - JET v2.stl"
+
+[[artifacts]]
+name = "materials-midaxiscover"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/materials/MidAxisCover.toml"
+
+[[artifacts]]
+name = "materials-midaxiscoverjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/materials/MidAxisCoverJETV2.toml"
+
+[[artifacts]]
+name = "model-midaxiscover"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/model/MidAxisCover.sysml"
+
+[[artifacts]]
+name = "model-midaxiscoverjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-axis-cover"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-axis-cover/model/MidAxisCoverJETV2.sysml"

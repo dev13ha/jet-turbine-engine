@@ -4,10 +4,475 @@
 
 [package]
 name = "@turbine-engine/unassigned-source"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "Source CAD files from the turbine dataset that could not be assigned to the requested product tree. Not an engine subsystem."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-blade1jetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/Blade1JETV2.scxml"
+
+[[artifacts]]
+name = "behavior-blade2jetv7"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/Blade2JETV7.scxml"
+
+[[artifacts]]
+name = "behavior-blade3jetv5"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/Blade3JETV5.scxml"
+
+[[artifacts]]
+name = "behavior-compressionfan1jetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/CompressionFan1JETV2.scxml"
+
+[[artifacts]]
+name = "behavior-corejetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/CoreJETV2.scxml"
+
+[[artifacts]]
+name = "behavior-frontturbinehubjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/FrontTurbineHubJETV2.scxml"
+
+[[artifacts]]
+name = "behavior-rearturbinehubjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/RearTurbineHubJETV2.scxml"
+
+[[artifacts]]
+name = "behavior-unassignedsource"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/behavior/UnassignedSource.scxml"
+
+[[artifacts]]
+name = "geometry-blade-1-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Blade-1- JET v2.stl"
+
+[[artifacts]]
+name = "geometry-blade-2-jet-v7"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Blade-2-JET v7.stl"
+
+[[artifacts]]
+name = "geometry-blade-3-jet-v5"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Blade-3-JET v5.stl"
+
+[[artifacts]]
+name = "geometry-compression-fan-1-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Compression Fan - 1 - JET v2.stl"
+
+[[artifacts]]
+name = "geometry-core-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Core- JET v2.stl"
+
+[[artifacts]]
+name = "geometry-front-turbine-hub-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Front Turbine Hub- JET v2.stl"
+
+[[artifacts]]
+name = "geometry-rear-turbine-hub-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/geometry/Rear Turbine Hub- JET v2.stl"
+
+[[artifacts]]
+name = "materials-blade1jetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/Blade1JETV2.toml"
+
+[[artifacts]]
+name = "materials-blade2jetv7"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/Blade2JETV7.toml"
+
+[[artifacts]]
+name = "materials-blade3jetv5"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/Blade3JETV5.toml"
+
+[[artifacts]]
+name = "materials-compressionfan1jetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/CompressionFan1JETV2.toml"
+
+[[artifacts]]
+name = "materials-corejetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/CoreJETV2.toml"
+
+[[artifacts]]
+name = "materials-frontturbinehubjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/FrontTurbineHubJETV2.toml"
+
+[[artifacts]]
+name = "materials-rearturbinehubjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/RearTurbineHubJETV2.toml"
+
+[[artifacts]]
+name = "materials-unassignedsource"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/materials/UnassignedSource.toml"
+
+[[artifacts]]
+name = "model-blade1jetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/Blade1JETV2.sysml"
+
+[[artifacts]]
+name = "model-blade2jetv7"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/Blade2JETV7.sysml"
+
+[[artifacts]]
+name = "model-blade3jetv5"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/Blade3JETV5.sysml"
+
+[[artifacts]]
+name = "model-compressionfan1jetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/CompressionFan1JETV2.sysml"
+
+[[artifacts]]
+name = "model-corejetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/CoreJETV2.sysml"
+
+[[artifacts]]
+name = "model-frontturbinehubjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/FrontTurbineHubJETV2.sysml"
+
+[[artifacts]]
+name = "model-rearturbinehubjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/RearTurbineHubJETV2.sysml"
+
+[[artifacts]]
+name = "model-unassignedsource"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/unassigned-source"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "unassigned/model/UnassignedSource.sysml"

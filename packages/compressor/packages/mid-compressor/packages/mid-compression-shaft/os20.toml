@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/mid-compression-shaft"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/mid-compression-shaft version 1.0.0. Geometry files: Mid Compression Shaft- JET v3.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-midcompressionshaft"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/behavior/MidCompressionShaft.scxml"
+
+[[artifacts]]
+name = "behavior-midcompressionshaftjetv3"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/behavior/MidCompressionShaftJETV3.scxml"
+
+[[artifacts]]
+name = "geometry-mid-compression-shaft-jet-v3"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/geometry/Mid Compression Shaft- JET v3.stl"
+
+[[artifacts]]
+name = "materials-midcompressionshaft"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/materials/MidCompressionShaft.toml"
+
+[[artifacts]]
+name = "materials-midcompressionshaftjetv3"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/materials/MidCompressionShaftJETV3.toml"
+
+[[artifacts]]
+name = "model-midcompressionshaft"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/model/MidCompressionShaft.sysml"
+
+[[artifacts]]
+name = "model-midcompressionshaftjetv3"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/mid-compression-shaft"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/mid-compressor/packages/mid-compression-shaft/model/MidCompressionShaftJETV3.sysml"

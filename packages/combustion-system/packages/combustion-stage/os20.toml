@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/combustion-stage"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/combustion-stage version 1.0.0. Geometry files: Combustion Stage - JET v6.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-combustionstage"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/behavior/CombustionStage.scxml"
+
+[[artifacts]]
+name = "behavior-combustionstagejetv6"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/behavior/CombustionStageJETV6.scxml"
+
+[[artifacts]]
+name = "geometry-combustion-stage-jet-v6"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/geometry/Combustion Stage - JET v6.stl"
+
+[[artifacts]]
+name = "materials-combustionstage"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/materials/CombustionStage.toml"
+
+[[artifacts]]
+name = "materials-combustionstagejetv6"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/materials/CombustionStageJETV6.toml"
+
+[[artifacts]]
+name = "model-combustionstage"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/model/CombustionStage.sysml"
+
+[[artifacts]]
+name = "model-combustionstagejetv6"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-stage"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-stage/model/CombustionStageJETV6.sysml"

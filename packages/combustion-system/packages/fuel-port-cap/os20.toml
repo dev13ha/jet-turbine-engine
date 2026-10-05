@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/fuel-port-cap"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/fuel-port-cap version 1.0.0. Geometry files: Fuel Port Cap - JET v2.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-fuelportcap"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/behavior/FuelPortCap.scxml"
+
+[[artifacts]]
+name = "behavior-fuelportcapjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/behavior/FuelPortCapJETV2.scxml"
+
+[[artifacts]]
+name = "geometry-fuel-port-cap-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/geometry/Fuel Port Cap - JET v2.stl"
+
+[[artifacts]]
+name = "materials-fuelportcap"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/materials/FuelPortCap.toml"
+
+[[artifacts]]
+name = "materials-fuelportcapjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/materials/FuelPortCapJETV2.toml"
+
+[[artifacts]]
+name = "model-fuelportcap"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/model/FuelPortCap.sysml"
+
+[[artifacts]]
+name = "model-fuelportcapjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/fuel-port-cap"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/fuel-port-cap/model/FuelPortCapJETV2.sysml"

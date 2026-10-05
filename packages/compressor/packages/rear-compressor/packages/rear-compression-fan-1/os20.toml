@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/rear-compression-fan-1"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/rear-compression-fan-1 version 1.0.0. Geometry files: Rear Compression Fan-1- JET v5.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-rearcompressionfan1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/behavior/RearCompressionFan1.scxml"
+
+[[artifacts]]
+name = "behavior-rearcompressionfan1jetv5"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/behavior/RearCompressionFan1JETV5.scxml"
+
+[[artifacts]]
+name = "geometry-rear-compression-fan-1-jet-v5"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/geometry/Rear Compression Fan-1- JET v5.stl"
+
+[[artifacts]]
+name = "materials-rearcompressionfan1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/materials/RearCompressionFan1.toml"
+
+[[artifacts]]
+name = "materials-rearcompressionfan1jetv5"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/materials/RearCompressionFan1JETV5.toml"
+
+[[artifacts]]
+name = "model-rearcompressionfan1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/model/RearCompressionFan1.sysml"
+
+[[artifacts]]
+name = "model-rearcompressionfan1jetv5"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-fan-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-fan-1/model/RearCompressionFan1JETV5.sysml"

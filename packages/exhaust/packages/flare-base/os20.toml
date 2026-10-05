@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/flare-base"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/flare-base version 1.0.0. Geometry files: Flare Base JET v1.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-flarebase"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/behavior/FlareBase.scxml"
+
+[[artifacts]]
+name = "behavior-flarebasejetv1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/behavior/FlareBaseJETV1.scxml"
+
+[[artifacts]]
+name = "geometry-flare-base-jet-v1"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/geometry/Flare Base JET v1.stl"
+
+[[artifacts]]
+name = "materials-flarebase"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/materials/FlareBase.toml"
+
+[[artifacts]]
+name = "materials-flarebasejetv1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/materials/FlareBaseJETV1.toml"
+
+[[artifacts]]
+name = "model-flarebase"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/model/FlareBase.sysml"
+
+[[artifacts]]
+name = "model-flarebasejetv1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/flare-base"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/exhaust/packages/flare-base/model/FlareBaseJETV1.sysml"

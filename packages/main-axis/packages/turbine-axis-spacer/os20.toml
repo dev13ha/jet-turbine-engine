@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/turbine-axis-spacer"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/turbine-axis-spacer version 1.0.0. Geometry files: Turbine Axis Spacer- JET v2.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-turbineaxisspacer"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/behavior/TurbineAxisSpacer.scxml"
+
+[[artifacts]]
+name = "behavior-turbineaxisspacerjetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/behavior/TurbineAxisSpacerJETV2.scxml"
+
+[[artifacts]]
+name = "geometry-turbine-axis-spacer-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/geometry/Turbine Axis Spacer- JET v2.stl"
+
+[[artifacts]]
+name = "materials-turbineaxisspacer"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/materials/TurbineAxisSpacer.toml"
+
+[[artifacts]]
+name = "materials-turbineaxisspacerjetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/materials/TurbineAxisSpacerJETV2.toml"
+
+[[artifacts]]
+name = "model-turbineaxisspacer"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/model/TurbineAxisSpacer.sysml"
+
+[[artifacts]]
+name = "model-turbineaxisspacerjetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-axis-spacer"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/main-axis/packages/turbine-axis-spacer/model/TurbineAxisSpacerJETV2.sysml"

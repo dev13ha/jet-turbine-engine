@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/turbine-spacer-1"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/turbine-spacer-1 version 1.0.0. Geometry files: Turbine Spacer- 1 - JET v1.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-turbinespacer1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/behavior/TurbineSpacer1.scxml"
+
+[[artifacts]]
+name = "behavior-turbinespacer1jetv1"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/behavior/TurbineSpacer1JETV1.scxml"
+
+[[artifacts]]
+name = "geometry-turbine-spacer-1-jet-v1"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/geometry/Turbine Spacer- 1 - JET v1.stl"
+
+[[artifacts]]
+name = "materials-turbinespacer1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/materials/TurbineSpacer1.toml"
+
+[[artifacts]]
+name = "materials-turbinespacer1jetv1"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/materials/TurbineSpacer1JETV1.toml"
+
+[[artifacts]]
+name = "model-turbinespacer1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/model/TurbineSpacer1.sysml"
+
+[[artifacts]]
+name = "model-turbinespacer1jetv1"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/turbine-spacer-1"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/turbine/packages/turbine-spacer-1/model/TurbineSpacer1JETV1.sysml"

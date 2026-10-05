@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/nose-cone"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/nose-cone version 1.0.0. Geometry files: Nose Cone - JET v2.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-nosecone"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/behavior/NoseCone.scxml"
+
+[[artifacts]]
+name = "behavior-noseconejetv2"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/behavior/NoseConeJETV2.scxml"
+
+[[artifacts]]
+name = "geometry-nose-cone-jet-v2"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/geometry/Nose Cone - JET v2.stl"
+
+[[artifacts]]
+name = "materials-nosecone"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/materials/NoseCone.toml"
+
+[[artifacts]]
+name = "materials-noseconejetv2"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/materials/NoseConeJETV2.toml"
+
+[[artifacts]]
+name = "model-nosecone"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/model/NoseCone.sysml"
+
+[[artifacts]]
+name = "model-noseconejetv2"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/nose-cone"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/packages/nose-cone/model/NoseConeJETV2.sysml"

@@ -4,7 +4,7 @@
 
 [package]
 name = "@turbine-engine/intake"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "assembly package @turbine-engine/intake version 1.0.0."
 
@@ -17,3 +17,63 @@ sysml = "2.0"
 "@turbine-engine/intake-casing" = "@turbine-engine/intake-casing@^1.0.0"
 "@turbine-engine/intake-structure" = "@turbine-engine/intake-structure@^1.0.0"
 "@turbine-engine/intake-fan" = "@turbine-engine/intake-fan@^1.0.0"
+
+[[artifacts]]
+name = "assembly-os20"
+kind = "assembly"
+format = "yaml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/intake"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/assembly.os20.yaml"
+
+[[artifacts]]
+name = "behavior-intake"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/intake"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/behavior/Intake.scxml"
+
+[[artifacts]]
+name = "materials-intake"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/intake"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/materials/Intake.toml"
+
+[[artifacts]]
+name = "model-intake"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/intake"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/intake/model/Intake.sysml"

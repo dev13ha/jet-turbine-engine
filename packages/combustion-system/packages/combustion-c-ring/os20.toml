@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/combustion-c-ring"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/combustion-c-ring version 1.0.0. Geometry files: Combustion C Ring- JET v5.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-combustioncring"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/behavior/CombustionCRing.scxml"
+
+[[artifacts]]
+name = "behavior-combustioncringjetv5"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/behavior/CombustionCRingJETV5.scxml"
+
+[[artifacts]]
+name = "geometry-combustion-c-ring-jet-v5"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/geometry/Combustion C Ring- JET v5.stl"
+
+[[artifacts]]
+name = "materials-combustioncring"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/materials/CombustionCRing.toml"
+
+[[artifacts]]
+name = "materials-combustioncringjetv5"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/materials/CombustionCRingJETV5.toml"
+
+[[artifacts]]
+name = "model-combustioncring"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/model/CombustionCRing.sysml"
+
+[[artifacts]]
+name = "model-combustioncringjetv5"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/combustion-c-ring"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/combustion-system/packages/combustion-c-ring/model/CombustionCRingJETV5.sysml"

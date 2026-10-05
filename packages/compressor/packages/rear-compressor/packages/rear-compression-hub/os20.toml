@@ -4,10 +4,115 @@
 
 [package]
 name = "@turbine-engine/rear-compression-hub"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "component package @turbine-engine/rear-compression-hub version 1.0.0. Geometry files: Rear Compression Hub - JET v5.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
+
+[[artifacts]]
+name = "behavior-rearcompressionhub"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/behavior/RearCompressionHub.scxml"
+
+[[artifacts]]
+name = "behavior-rearcompressionhubjetv5"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/behavior/RearCompressionHubJETV5.scxml"
+
+[[artifacts]]
+name = "geometry-rear-compression-hub-jet-v5"
+kind = "geometry"
+format = "stl"
+
+[artifacts.semantic]
+relation = "core:represents"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/geometry/Rear Compression Hub - JET v5.stl"
+
+[[artifacts]]
+name = "materials-rearcompressionhub"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/materials/RearCompressionHub.toml"
+
+[[artifacts]]
+name = "materials-rearcompressionhubjetv5"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/materials/RearCompressionHubJETV5.toml"
+
+[[artifacts]]
+name = "model-rearcompressionhub"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/model/RearCompressionHub.sysml"
+
+[[artifacts]]
+name = "model-rearcompressionhubjetv5"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/rear-compression-hub"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/compressor/packages/rear-compressor/packages/rear-compression-hub/model/RearCompressionHubJETV5.sysml"

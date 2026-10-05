@@ -4,7 +4,7 @@
 
 [package]
 name = "@turbine-engine/structure"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2026"
 description = "assembly package @turbine-engine/structure version 1.0.0."
 
@@ -17,3 +17,63 @@ sysml = "2.0"
 "@turbine-engine/core-plate" = "@turbine-engine/core-plate@^1.0.0"
 "@turbine-engine/heat-ring" = "@turbine-engine/heat-ring@^1.0.0"
 "@turbine-engine/rivet-2x4" = "@turbine-engine/rivet-2x4@^1.0.0"
+
+[[artifacts]]
+name = "assembly-os20"
+kind = "assembly"
+format = "yaml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/structure"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/assembly.os20.yaml"
+
+[[artifacts]]
+name = "behavior-structure"
+kind = "behavior"
+format = "scxml"
+
+[artifacts.semantic]
+relation = "core:simulates"
+target = "os20:@turbine-engine/structure"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/behavior/Structure.scxml"
+
+[[artifacts]]
+name = "materials-structure"
+kind = "materials"
+format = "toml"
+
+[artifacts.semantic]
+relation = "core:specifies"
+target = "os20:@turbine-engine/structure"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/materials/Structure.toml"
+
+[[artifacts]]
+name = "model-structure"
+kind = "model"
+format = "sysml"
+
+[artifacts.semantic]
+relation = "core:describes"
+target = "os20:@turbine-engine/structure"
+
+[artifacts.source]
+provider = "github"
+repo = "dev13ha/jet-turbine-engine"
+revision = "master"
+path = "packages/structure/model/Structure.sysml"
