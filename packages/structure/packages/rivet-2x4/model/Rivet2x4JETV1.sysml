@@ -1,4 +1,4 @@
-// Source file companion for @jet/rivet-2x4
+// Source file companion for @turbine-engine/rivet-2x4
 // represents: geometry/Rivet 2x4 -JET v1.stl
 // role: represents
 // This file does not replace any child package.

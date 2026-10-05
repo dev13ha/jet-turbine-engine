@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @jet/turbine-link-assembly behavior for Turbine Link Assembly- JET v2.stl. UNKNOWN. -->
+<!-- @turbine-engine/turbine-link-assembly behavior for Turbine Link Assembly- JET v2.stl. UNKNOWN. -->
 <scxml xmlns="http://www.w3.org/2005/07/scxml"
        version="1.0"
        initial="unknown"

@@ -1,4 +1,4 @@
-// Source file companion for @jet/intake-fan
+// Source file companion for @turbine-engine/intake-fan
 // represents: geometry/Intake Fan- JET v2.stl
 // role: represents
 // This file does not replace any child package.

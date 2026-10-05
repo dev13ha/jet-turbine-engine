@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @jet/intake-fan has no authored behavior in the source dataset. -->
+<!-- @turbine-engine/intake-fan has no authored behavior in the source dataset. -->
 <scxml xmlns="http://www.w3.org/2005/07/scxml"
        version="1.0"
        initial="unknown"

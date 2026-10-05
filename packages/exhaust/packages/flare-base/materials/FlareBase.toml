@@ -1,9 +1,9 @@
-# Material record for @jet/flare-base
+# Material record for @turbine-engine/flare-base
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/flare-base"
+package = "@turbine-engine/flare-base"
 part = "FlareBase"
 geometry = "geometry/Flare Base JET v1.stl"
 material = "UNKNOWN"

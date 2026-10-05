@@ -1,9 +1,9 @@
-# Material record for @jet/turbine-axis-spacer
+# Material record for @turbine-engine/turbine-axis-spacer
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/turbine-axis-spacer"
+package = "@turbine-engine/turbine-axis-spacer"
 part = "TurbineAxisSpacerJETV2"
 geometry = "geometry/Turbine Axis Spacer- JET v2.stl"
 material = "UNKNOWN"

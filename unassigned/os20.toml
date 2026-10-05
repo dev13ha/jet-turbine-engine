@@ -1,9 +1,9 @@
 # Holding package for dataset files that were not confidently assigned.
-# This package is not a dependency of @jet/turbine-engine.
+# This package is not a dependency of @turbine-engine/turbine-engine.
 # UNKNOWN assignment is not a pass.
 
 [package]
-name = "@jet/unassigned-source"
+name = "@turbine-engine/unassigned-source"
 version = "1.0.0"
 edition = "2026"
 description = "Source CAD files from the turbine dataset that could not be assigned to the requested product tree. Not an engine subsystem."

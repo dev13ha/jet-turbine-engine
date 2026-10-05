@@ -1,4 +1,4 @@
-// Source file companion for @jet/mid-compressor
+// Source file companion for @turbine-engine/mid-compressor
 // derivedFrom: geometry/Mid Compression Assembly - JET v4.stl
 // role: assembly-reference
 // This file does not replace any child package.

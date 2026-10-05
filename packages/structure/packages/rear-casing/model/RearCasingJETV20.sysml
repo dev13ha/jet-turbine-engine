@@ -1,4 +1,4 @@
-// Source file companion for @jet/rear-casing
+// Source file companion for @turbine-engine/rear-casing
 // represents: geometry/Rear Casing - JET v20.stl
 // role: represents
 // This file does not replace any child package.

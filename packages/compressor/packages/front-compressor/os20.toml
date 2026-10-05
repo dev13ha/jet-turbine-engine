@@ -3,19 +3,19 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/front-compressor"
+name = "@turbine-engine/front-compressor"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/front-compressor version 1.0.0."
+description = "assembly package @turbine-engine/front-compressor version 1.0.0."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/front-compression-cap" = "@jet/front-compression-cap@^1.0.0"
-"@jet/front-compression-hub" = "@jet/front-compression-hub@^1.0.0"
-"@jet/front-compression-fan-1" = "@jet/front-compression-fan-1@^1.0.0"
-"@jet/front-compression-fan-2" = "@jet/front-compression-fan-2@^1.0.0"
-"@jet/front-compression-fan-3" = "@jet/front-compression-fan-3@^1.0.0"
-"@jet/front-compression-fan-4" = "@jet/front-compression-fan-4@^1.0.0"
+"@turbine-engine/front-compression-cap" = "@turbine-engine/front-compression-cap@^1.0.0"
+"@turbine-engine/front-compression-hub" = "@turbine-engine/front-compression-hub@^1.0.0"
+"@turbine-engine/front-compression-fan-1" = "@turbine-engine/front-compression-fan-1@^1.0.0"
+"@turbine-engine/front-compression-fan-2" = "@turbine-engine/front-compression-fan-2@^1.0.0"
+"@turbine-engine/front-compression-fan-3" = "@turbine-engine/front-compression-fan-3@^1.0.0"
+"@turbine-engine/front-compression-fan-4" = "@turbine-engine/front-compression-fan-4@^1.0.0"

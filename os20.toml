@@ -3,20 +3,20 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/turbine-engine"
+name = "@turbine-engine/turbine-engine"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/turbine-engine version 1.0.0. Geometry files: Working.stl, Open.stl, Open.skp."
+description = "assembly package @turbine-engine/turbine-engine version 1.0.0. Geometry files: Working.stl, Open.stl, Open.skp."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/intake" = "@jet/intake@^1.0.0"
-"@jet/compressor" = "@jet/compressor@^1.0.0"
-"@jet/combustion-system" = "@jet/combustion-system@^1.0.0"
-"@jet/main-axis" = "@jet/main-axis@^1.0.0"
-"@jet/turbine" = "@jet/turbine@^1.0.0"
-"@jet/exhaust" = "@jet/exhaust@^1.0.0"
-"@jet/structure" = "@jet/structure@^1.0.0"
+"@turbine-engine/intake" = "@turbine-engine/intake@^1.0.0"
+"@turbine-engine/compressor" = "@turbine-engine/compressor@^1.0.0"
+"@turbine-engine/combustion-system" = "@turbine-engine/combustion-system@^1.0.0"
+"@turbine-engine/main-axis" = "@turbine-engine/main-axis@^1.0.0"
+"@turbine-engine/turbine" = "@turbine-engine/turbine@^1.0.0"
+"@turbine-engine/exhaust" = "@turbine-engine/exhaust@^1.0.0"
+"@turbine-engine/structure" = "@turbine-engine/structure@^1.0.0"

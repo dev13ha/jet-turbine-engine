@@ -1,9 +1,9 @@
-# Material record for @jet/main-axis-shaft
+# Material record for @turbine-engine/main-axis-shaft
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/main-axis-shaft"
+package = "@turbine-engine/main-axis-shaft"
 part = "MainAxisShaft"
 geometry = "geometry/Main Axis Shaft- JET v3.stl"
 material = "UNKNOWN"

@@ -1,4 +1,4 @@
-// Unassigned source file. Not a member of @jet/turbine-engine.
+// Unassigned source file. Not a member of @turbine-engine/turbine-engine.
 // Distinct from Front Compression Fan-1. No requested package matches this name.
 import Systems::*;
 

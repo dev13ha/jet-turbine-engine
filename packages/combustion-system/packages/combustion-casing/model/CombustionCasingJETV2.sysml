@@ -1,4 +1,4 @@
-// Source file companion for @jet/combustion-casing
+// Source file companion for @turbine-engine/combustion-casing
 // represents: geometry/Combustion Casing - JET v2.stl
 // role: represents
 // This file does not replace any child package.

@@ -1,36 +1,36 @@
 spec: os20.assembly/v0
-package: "@jet/combustion-system"
+package: "@turbine-engine/combustion-system"
 version: "1.0.0"
 relation: contains
 note: >
   Membership only. Transform and mate data were not in the source files.
   UNKNOWN is not a pass. dependsOn is os20.toml, not this document.
 members:
-  - package: "@jet/combustion-casing"
+  - package: "@turbine-engine/combustion-casing"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/combustion-chamber"
+  - package: "@turbine-engine/combustion-chamber"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/combustion-c-ring"
+  - package: "@turbine-engine/combustion-c-ring"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/combustion-shell"
+  - package: "@turbine-engine/combustion-shell"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/combustion-cap"
+  - package: "@turbine-engine/combustion-cap"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/combustion-stage"
+  - package: "@turbine-engine/combustion-stage"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/fuel-port-cap"
+  - package: "@turbine-engine/fuel-port-cap"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN

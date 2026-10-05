@@ -1,4 +1,4 @@
-// Source file companion for @jet/combustion-c-ring
+// Source file companion for @turbine-engine/combustion-c-ring
 // represents: geometry/Combustion C Ring- JET v5.stl
 // role: represents
 // This file does not replace any child package.

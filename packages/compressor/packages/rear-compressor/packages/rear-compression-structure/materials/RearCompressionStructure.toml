@@ -1,9 +1,9 @@
-# Material record for @jet/rear-compression-structure
+# Material record for @turbine-engine/rear-compression-structure
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/rear-compression-structure"
+package = "@turbine-engine/rear-compression-structure"
 part = "RearCompressionStructure"
 geometry = "geometry/Rear Compression Structure - JET v2.stl"
 material = "UNKNOWN"

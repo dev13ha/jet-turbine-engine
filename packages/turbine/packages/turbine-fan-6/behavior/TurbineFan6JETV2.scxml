@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @jet/turbine-fan-6 behavior for Turbine Fan-6- JET v2.stl. UNKNOWN. -->
+<!-- @turbine-engine/turbine-fan-6 behavior for Turbine Fan-6- JET v2.stl. UNKNOWN. -->
 <scxml xmlns="http://www.w3.org/2005/07/scxml"
        version="1.0"
        initial="unknown"

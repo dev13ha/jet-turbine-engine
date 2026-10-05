@@ -1,4 +1,4 @@
-// Source file companion for @jet/front-compression-fan-1
+// Source file companion for @turbine-engine/front-compression-fan-1
 // represents: geometry/Front Compression Fan-1- JET v3.stl
 // role: represents
 // This file does not replace any child package.

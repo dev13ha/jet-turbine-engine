@@ -1,4 +1,4 @@
-// Source file companion for @jet/front-compression-cap
+// Source file companion for @turbine-engine/front-compression-cap
 // represents: geometry/Front Compression Cap- JET v2.stl
 // role: represents
 // This file does not replace any child package.

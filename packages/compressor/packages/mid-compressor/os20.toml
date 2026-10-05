@@ -3,18 +3,18 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/mid-compressor"
+name = "@turbine-engine/mid-compressor"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/mid-compressor version 1.0.0. Geometry files: Mid Compression Assembly - JET v4.stl."
+description = "assembly package @turbine-engine/mid-compressor version 1.0.0. Geometry files: Mid Compression Assembly - JET v4.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/mid-compression-cap" = "@jet/mid-compression-cap@^1.0.0"
-"@jet/mid-compression-fan" = "@jet/mid-compression-fan@^1.0.0"
-"@jet/mid-compression-link" = "@jet/mid-compression-link@^1.0.0"
-"@jet/mid-compression-shaft" = "@jet/mid-compression-shaft@^1.0.0"
-"@jet/mid-axis-cover" = "@jet/mid-axis-cover@^1.0.0"
+"@turbine-engine/mid-compression-cap" = "@turbine-engine/mid-compression-cap@^1.0.0"
+"@turbine-engine/mid-compression-fan" = "@turbine-engine/mid-compression-fan@^1.0.0"
+"@turbine-engine/mid-compression-link" = "@turbine-engine/mid-compression-link@^1.0.0"
+"@turbine-engine/mid-compression-shaft" = "@turbine-engine/mid-compression-shaft@^1.0.0"
+"@turbine-engine/mid-axis-cover" = "@turbine-engine/mid-axis-cover@^1.0.0"

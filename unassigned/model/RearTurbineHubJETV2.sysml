@@ -1,4 +1,4 @@
-// Unassigned source file. Not a member of @jet/turbine-engine.
+// Unassigned source file. Not a member of @turbine-engine/turbine-engine.
 // No rear-turbine-hub package was requested. Not treated as the rear compression hub.
 import Systems::*;
 

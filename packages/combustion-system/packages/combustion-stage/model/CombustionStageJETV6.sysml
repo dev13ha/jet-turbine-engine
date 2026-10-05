@@ -1,4 +1,4 @@
-// Source file companion for @jet/combustion-stage
+// Source file companion for @turbine-engine/combustion-stage
 // represents: geometry/Combustion Stage - JET v6.stl
 // role: represents
 // This file does not replace any child package.

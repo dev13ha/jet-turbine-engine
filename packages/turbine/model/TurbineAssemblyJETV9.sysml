@@ -1,4 +1,4 @@
-// Source file companion for @jet/turbine
+// Source file companion for @turbine-engine/turbine
 // derivedFrom: geometry/Turbine Assembly- JET v9.stl
 // role: assembly-reference
 // This file does not replace any child package.

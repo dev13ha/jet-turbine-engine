@@ -1,9 +1,9 @@
-# Material record for @jet/turbine-link-assembly
+# Material record for @turbine-engine/turbine-link-assembly
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/turbine-link-assembly"
+package = "@turbine-engine/turbine-link-assembly"
 part = "TurbineLinkAssemblyJETV2"
 geometry = "geometry/Turbine Link Assembly- JET v2.stl"
 material = "UNKNOWN"

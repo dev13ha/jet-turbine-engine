@@ -3,17 +3,17 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/intake"
+name = "@turbine-engine/intake"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/intake version 1.0.0."
+description = "assembly package @turbine-engine/intake version 1.0.0."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/nose-cone" = "@jet/nose-cone@^1.0.0"
-"@jet/intake-casing" = "@jet/intake-casing@^1.0.0"
-"@jet/intake-structure" = "@jet/intake-structure@^1.0.0"
-"@jet/intake-fan" = "@jet/intake-fan@^1.0.0"
+"@turbine-engine/nose-cone" = "@turbine-engine/nose-cone@^1.0.0"
+"@turbine-engine/intake-casing" = "@turbine-engine/intake-casing@^1.0.0"
+"@turbine-engine/intake-structure" = "@turbine-engine/intake-structure@^1.0.0"
+"@turbine-engine/intake-fan" = "@turbine-engine/intake-fan@^1.0.0"

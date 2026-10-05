@@ -1,9 +1,9 @@
-# Material record for @jet/combustion-cap
+# Material record for @turbine-engine/combustion-cap
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/combustion-cap"
+package = "@turbine-engine/combustion-cap"
 part = "CombustionCap"
 geometry = "geometry/Combustion Cap- JET v2.stl"
 material = "UNKNOWN"

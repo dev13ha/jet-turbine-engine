@@ -3,10 +3,10 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/intake-fan"
+name = "@turbine-engine/intake-fan"
 version = "1.0.0"
 edition = "2026"
-description = "component package @jet/intake-fan version 1.0.0. Geometry files: Intake Fan- JET v2.stl."
+description = "component package @turbine-engine/intake-fan version 1.0.0. Geometry files: Intake Fan- JET v2.stl."
 
 [language]
 kerml = "1.0"

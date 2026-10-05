@@ -1,9 +1,9 @@
-# Material record for @jet/front-compression-cap
+# Material record for @turbine-engine/front-compression-cap
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/front-compression-cap"
+package = "@turbine-engine/front-compression-cap"
 part = "FrontCompressionCapJETV2"
 geometry = "geometry/Front Compression Cap- JET v2.stl"
 material = "UNKNOWN"

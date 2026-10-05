@@ -1,4 +1,4 @@
-// Source file companion for @jet/mid-compression-link
+// Source file companion for @turbine-engine/mid-compression-link
 // represents: geometry/Mid Compression Link - JET v3.stl
 // role: represents
 // This file does not replace any child package.

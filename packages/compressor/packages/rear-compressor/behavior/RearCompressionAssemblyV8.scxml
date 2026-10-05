@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @jet/rear-compressor behavior for Rear Compression Assembly v8.stl. UNKNOWN. -->
+<!-- @turbine-engine/rear-compressor behavior for Rear Compression Assembly v8.stl. UNKNOWN. -->
 <scxml xmlns="http://www.w3.org/2005/07/scxml"
        version="1.0"
        initial="unknown"

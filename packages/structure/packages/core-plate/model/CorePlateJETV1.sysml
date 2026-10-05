@@ -1,4 +1,4 @@
-// Source file companion for @jet/core-plate
+// Source file companion for @turbine-engine/core-plate
 // represents: geometry/Core Plate- JET v1.stl
 // role: represents
 // This file does not replace any child package.

@@ -1,4 +1,4 @@
-// Source file companion for @jet/mid-compression-fan
+// Source file companion for @turbine-engine/mid-compression-fan
 // represents: geometry/Mid Compression Fan - JET v4.stl
 // role: represents
 // This file does not replace any child package.

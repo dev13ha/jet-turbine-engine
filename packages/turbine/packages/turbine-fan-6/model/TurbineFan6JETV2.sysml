@@ -1,4 +1,4 @@
-// Source file companion for @jet/turbine-fan-6
+// Source file companion for @turbine-engine/turbine-fan-6
 // represents: geometry/Turbine Fan-6- JET v2.stl
 // role: represents
 // This file does not replace any child package.

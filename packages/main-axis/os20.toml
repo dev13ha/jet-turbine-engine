@@ -3,17 +3,17 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/main-axis"
+name = "@turbine-engine/main-axis"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/main-axis version 1.0.0. Geometry files: Main Axis Assembly v11.stl."
+description = "assembly package @turbine-engine/main-axis version 1.0.0. Geometry files: Main Axis Assembly v11.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/main-axis-shaft" = "@jet/main-axis-shaft@^1.0.0"
-"@jet/bearing-1" = "@jet/bearing-1@^1.0.0"
-"@jet/bearing-2" = "@jet/bearing-2@^1.0.0"
-"@jet/turbine-axis-spacer" = "@jet/turbine-axis-spacer@^1.0.0"
+"@turbine-engine/main-axis-shaft" = "@turbine-engine/main-axis-shaft@^1.0.0"
+"@turbine-engine/bearing-1" = "@turbine-engine/bearing-1@^1.0.0"
+"@turbine-engine/bearing-2" = "@turbine-engine/bearing-2@^1.0.0"
+"@turbine-engine/turbine-axis-spacer" = "@turbine-engine/turbine-axis-spacer@^1.0.0"

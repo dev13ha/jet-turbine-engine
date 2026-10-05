@@ -1,9 +1,9 @@
-# Material record for @jet/nose-cone
+# Material record for @turbine-engine/nose-cone
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/nose-cone"
+package = "@turbine-engine/nose-cone"
 part = "NoseConeJETV2"
 geometry = "geometry/Nose Cone - JET v2.stl"
 material = "UNKNOWN"

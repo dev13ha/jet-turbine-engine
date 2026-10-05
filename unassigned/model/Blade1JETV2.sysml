@@ -1,4 +1,4 @@
-// Unassigned source file. Not a member of @jet/turbine-engine.
+// Unassigned source file. Not a member of @turbine-engine/turbine-engine.
 // Filename does not match any requested package. Not assigned to a fan.
 import Systems::*;
 

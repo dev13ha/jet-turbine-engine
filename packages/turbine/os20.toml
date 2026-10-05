@@ -3,25 +3,25 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/turbine"
+name = "@turbine-engine/turbine"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/turbine version 1.0.0. Geometry files: Turbine Assembly- JET v9.stl."
+description = "assembly package @turbine-engine/turbine version 1.0.0. Geometry files: Turbine Assembly- JET v9.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/turbine-shaft" = "@jet/turbine-shaft@^1.0.0"
-"@jet/turbine-housing" = "@jet/turbine-housing@^1.0.0"
-"@jet/turbine-fan-1" = "@jet/turbine-fan-1@^1.0.0"
-"@jet/turbine-fan-2" = "@jet/turbine-fan-2@^1.0.0"
-"@jet/turbine-fan-3" = "@jet/turbine-fan-3@^1.0.0"
-"@jet/turbine-fan-4" = "@jet/turbine-fan-4@^1.0.0"
-"@jet/turbine-fan-5" = "@jet/turbine-fan-5@^1.0.0"
-"@jet/turbine-fan-6" = "@jet/turbine-fan-6@^1.0.0"
-"@jet/turbine-spacer-1" = "@jet/turbine-spacer-1@^1.0.0"
-"@jet/turbine-spacer-2" = "@jet/turbine-spacer-2@^1.0.0"
-"@jet/turbine-link" = "@jet/turbine-link@^1.0.0"
-"@jet/turbine-link-assembly" = "@jet/turbine-link-assembly@^1.0.0"
+"@turbine-engine/turbine-shaft" = "@turbine-engine/turbine-shaft@^1.0.0"
+"@turbine-engine/turbine-housing" = "@turbine-engine/turbine-housing@^1.0.0"
+"@turbine-engine/turbine-fan-1" = "@turbine-engine/turbine-fan-1@^1.0.0"
+"@turbine-engine/turbine-fan-2" = "@turbine-engine/turbine-fan-2@^1.0.0"
+"@turbine-engine/turbine-fan-3" = "@turbine-engine/turbine-fan-3@^1.0.0"
+"@turbine-engine/turbine-fan-4" = "@turbine-engine/turbine-fan-4@^1.0.0"
+"@turbine-engine/turbine-fan-5" = "@turbine-engine/turbine-fan-5@^1.0.0"
+"@turbine-engine/turbine-fan-6" = "@turbine-engine/turbine-fan-6@^1.0.0"
+"@turbine-engine/turbine-spacer-1" = "@turbine-engine/turbine-spacer-1@^1.0.0"
+"@turbine-engine/turbine-spacer-2" = "@turbine-engine/turbine-spacer-2@^1.0.0"
+"@turbine-engine/turbine-link" = "@turbine-engine/turbine-link@^1.0.0"
+"@turbine-engine/turbine-link-assembly" = "@turbine-engine/turbine-link-assembly@^1.0.0"

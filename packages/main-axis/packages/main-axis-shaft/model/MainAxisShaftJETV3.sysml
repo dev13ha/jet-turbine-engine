@@ -1,4 +1,4 @@
-// Source file companion for @jet/main-axis-shaft
+// Source file companion for @turbine-engine/main-axis-shaft
 // represents: geometry/Main Axis Shaft- JET v3.stl
 // role: represents
 // This file does not replace any child package.

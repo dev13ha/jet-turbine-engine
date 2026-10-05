@@ -1,9 +1,9 @@
-# Material record for @jet/front-compression-fan-2
+# Material record for @turbine-engine/front-compression-fan-2
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/front-compression-fan-2"
+package = "@turbine-engine/front-compression-fan-2"
 part = "FrontCompressionFan2"
 geometry = "geometry/Front Compression Fan-2- JET v4.stl"
 material = "UNKNOWN"

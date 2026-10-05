@@ -3,19 +3,19 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/rear-compressor"
+name = "@turbine-engine/rear-compressor"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/rear-compressor version 1.0.0. Geometry files: Rear Compression Assembly v8.stl."
+description = "assembly package @turbine-engine/rear-compressor version 1.0.0. Geometry files: Rear Compression Assembly v8.stl."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/rear-compression-fan-1" = "@jet/rear-compression-fan-1@^1.0.0"
-"@jet/rear-compression-fan-2" = "@jet/rear-compression-fan-2@^1.0.0"
-"@jet/rear-compression-fan-3" = "@jet/rear-compression-fan-3@^1.0.0"
-"@jet/rear-compression-hub" = "@jet/rear-compression-hub@^1.0.0"
-"@jet/rear-compression-link" = "@jet/rear-compression-link@^1.0.0"
-"@jet/rear-compression-structure" = "@jet/rear-compression-structure@^1.0.0"
+"@turbine-engine/rear-compression-fan-1" = "@turbine-engine/rear-compression-fan-1@^1.0.0"
+"@turbine-engine/rear-compression-fan-2" = "@turbine-engine/rear-compression-fan-2@^1.0.0"
+"@turbine-engine/rear-compression-fan-3" = "@turbine-engine/rear-compression-fan-3@^1.0.0"
+"@turbine-engine/rear-compression-hub" = "@turbine-engine/rear-compression-hub@^1.0.0"
+"@turbine-engine/rear-compression-link" = "@turbine-engine/rear-compression-link@^1.0.0"
+"@turbine-engine/rear-compression-structure" = "@turbine-engine/rear-compression-structure@^1.0.0"

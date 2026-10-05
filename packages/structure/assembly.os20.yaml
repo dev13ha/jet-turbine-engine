@@ -1,24 +1,24 @@
 spec: os20.assembly/v0
-package: "@jet/structure"
+package: "@turbine-engine/structure"
 version: "1.0.0"
 relation: contains
 note: >
   Membership only. Transform and mate data were not in the source files.
   UNKNOWN is not a pass. dependsOn is os20.toml, not this document.
 members:
-  - package: "@jet/rear-casing"
+  - package: "@turbine-engine/rear-casing"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/core-plate"
+  - package: "@turbine-engine/core-plate"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/heat-ring"
+  - package: "@turbine-engine/heat-ring"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/rivet-2x4"
+  - package: "@turbine-engine/rivet-2x4"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN

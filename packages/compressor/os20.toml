@@ -3,16 +3,16 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/compressor"
+name = "@turbine-engine/compressor"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/compressor version 1.0.0."
+description = "assembly package @turbine-engine/compressor version 1.0.0."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/front-compressor" = "@jet/front-compressor@^1.0.0"
-"@jet/mid-compressor" = "@jet/mid-compressor@^1.0.0"
-"@jet/rear-compressor" = "@jet/rear-compressor@^1.0.0"
+"@turbine-engine/front-compressor" = "@turbine-engine/front-compressor@^1.0.0"
+"@turbine-engine/mid-compressor" = "@turbine-engine/mid-compressor@^1.0.0"
+"@turbine-engine/rear-compressor" = "@turbine-engine/rear-compressor@^1.0.0"

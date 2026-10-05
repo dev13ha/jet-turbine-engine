@@ -1,9 +1,9 @@
-# Material record for @jet/combustion-c-ring
+# Material record for @turbine-engine/combustion-c-ring
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/combustion-c-ring"
+package = "@turbine-engine/combustion-c-ring"
 part = "CombustionCRing"
 geometry = "geometry/Combustion C Ring- JET v5.stl"
 material = "UNKNOWN"

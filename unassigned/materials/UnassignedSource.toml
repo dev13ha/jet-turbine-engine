@@ -1,9 +1,9 @@
-# Material record for @jet/unassigned-source
+# Material record for @turbine-engine/unassigned-source
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/unassigned-source"
+package = "@turbine-engine/unassigned-source"
 part = "UnassignedSource"
 geometry = ""
 material = "UNKNOWN"

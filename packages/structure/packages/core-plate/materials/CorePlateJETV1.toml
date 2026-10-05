@@ -1,9 +1,9 @@
-# Material record for @jet/core-plate
+# Material record for @turbine-engine/core-plate
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/core-plate"
+package = "@turbine-engine/core-plate"
 part = "CorePlateJETV1"
 geometry = "geometry/Core Plate- JET v1.stl"
 material = "UNKNOWN"

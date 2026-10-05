@@ -1,9 +1,9 @@
-# Material record for @jet/rivet-2x4
+# Material record for @turbine-engine/rivet-2x4
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/rivet-2x4"
+package = "@turbine-engine/rivet-2x4"
 part = "Rivet2x4"
 geometry = "geometry/Rivet 2x4 -JET v1.stl"
 material = "UNKNOWN"

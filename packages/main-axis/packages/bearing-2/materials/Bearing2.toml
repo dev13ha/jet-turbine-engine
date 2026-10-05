@@ -1,9 +1,9 @@
-# Material record for @jet/bearing-2
+# Material record for @turbine-engine/bearing-2
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/bearing-2"
+package = "@turbine-engine/bearing-2"
 part = "Bearing2"
 geometry = "geometry/Bearing 2- JET v3.stl"
 material = "UNKNOWN"

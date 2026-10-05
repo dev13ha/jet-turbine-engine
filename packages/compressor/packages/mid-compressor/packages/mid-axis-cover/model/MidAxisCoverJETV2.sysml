@@ -1,4 +1,4 @@
-// Source file companion for @jet/mid-axis-cover
+// Source file companion for @turbine-engine/mid-axis-cover
 // represents: geometry/Mid Axis Cover - JET v2.stl
 // role: represents
 // This file does not replace any child package.

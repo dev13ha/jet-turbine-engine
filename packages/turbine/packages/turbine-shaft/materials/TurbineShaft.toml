@@ -1,9 +1,9 @@
-# Material record for @jet/turbine-shaft
+# Material record for @turbine-engine/turbine-shaft
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/turbine-shaft"
+package = "@turbine-engine/turbine-shaft"
 part = "TurbineShaft"
 geometry = "geometry/Turbine Shaft- JET v3.stl"
 material = "UNKNOWN"

@@ -1,4 +1,4 @@
-// Source file companion for @jet/flare-base
+// Source file companion for @turbine-engine/flare-base
 // represents: geometry/Flare Base JET v1.stl
 // role: represents
 // This file does not replace any child package.

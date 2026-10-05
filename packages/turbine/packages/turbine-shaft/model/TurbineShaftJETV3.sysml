@@ -1,4 +1,4 @@
-// Source file companion for @jet/turbine-shaft
+// Source file companion for @turbine-engine/turbine-shaft
 // represents: geometry/Turbine Shaft- JET v3.stl
 // role: represents
 // This file does not replace any child package.

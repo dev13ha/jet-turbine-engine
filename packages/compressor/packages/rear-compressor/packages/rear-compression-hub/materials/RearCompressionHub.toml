@@ -1,9 +1,9 @@
-# Material record for @jet/rear-compression-hub
+# Material record for @turbine-engine/rear-compression-hub
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/rear-compression-hub"
+package = "@turbine-engine/rear-compression-hub"
 part = "RearCompressionHub"
 geometry = "geometry/Rear Compression Hub - JET v5.stl"
 material = "UNKNOWN"

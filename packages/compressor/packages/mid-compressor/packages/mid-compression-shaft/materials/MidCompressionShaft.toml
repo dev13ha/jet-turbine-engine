@@ -1,9 +1,9 @@
-# Material record for @jet/mid-compression-shaft
+# Material record for @turbine-engine/mid-compression-shaft
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/mid-compression-shaft"
+package = "@turbine-engine/mid-compression-shaft"
 part = "MidCompressionShaft"
 geometry = "geometry/Mid Compression Shaft- JET v3.stl"
 material = "UNKNOWN"

@@ -1,36 +1,36 @@
 spec: os20.assembly/v0
-package: "@jet/turbine-engine"
+package: "@turbine-engine/turbine-engine"
 version: "1.0.0"
 relation: contains
 note: >
   Membership only. Transform and mate data were not in the source files.
   UNKNOWN is not a pass. dependsOn is os20.toml, not this document.
 members:
-  - package: "@jet/intake"
+  - package: "@turbine-engine/intake"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/compressor"
+  - package: "@turbine-engine/compressor"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/combustion-system"
+  - package: "@turbine-engine/combustion-system"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/main-axis"
+  - package: "@turbine-engine/main-axis"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/turbine"
+  - package: "@turbine-engine/turbine"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/exhaust"
+  - package: "@turbine-engine/exhaust"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN
-  - package: "@jet/structure"
+  - package: "@turbine-engine/structure"
     transform: UNKNOWN
     orientation: UNKNOWN
     mates: UNKNOWN

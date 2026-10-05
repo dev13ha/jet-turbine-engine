@@ -1,9 +1,9 @@
-# Material record for @jet/front-compressor
+# Material record for @turbine-engine/front-compressor
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/front-compressor"
+package = "@turbine-engine/front-compressor"
 part = "FrontCompressor"
 geometry = ""
 material = "UNKNOWN"

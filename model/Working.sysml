@@ -1,4 +1,4 @@
-// Source file companion for @jet/turbine-engine
+// Source file companion for @turbine-engine/turbine-engine
 // derivedFrom: geometry/reference/Working.stl
 // role: engine-reference
 // This file does not replace any child package.

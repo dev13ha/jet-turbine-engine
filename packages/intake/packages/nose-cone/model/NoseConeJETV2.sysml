@@ -1,4 +1,4 @@
-// Source file companion for @jet/nose-cone
+// Source file companion for @turbine-engine/nose-cone
 // represents: geometry/Nose Cone - JET v2.stl
 // role: represents
 // This file does not replace any child package.

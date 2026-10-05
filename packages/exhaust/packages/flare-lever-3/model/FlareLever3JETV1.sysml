@@ -1,4 +1,4 @@
-// Source file companion for @jet/flare-lever-3
+// Source file companion for @turbine-engine/flare-lever-3
 // represents: geometry/Flare Lever-3 - JET v1.stl
 // role: represents
 // This file does not replace any child package.

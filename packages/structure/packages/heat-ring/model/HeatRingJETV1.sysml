@@ -1,4 +1,4 @@
-// Source file companion for @jet/heat-ring
+// Source file companion for @turbine-engine/heat-ring
 // represents: geometry/Heat Ring- JET v1.stl
 // role: represents
 // This file does not replace any child package.

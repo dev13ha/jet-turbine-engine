@@ -1,4 +1,4 @@
-// Source file companion for @jet/intake-structure
+// Source file companion for @turbine-engine/intake-structure
 // represents: geometry/Intake Structure - JET v2.stl
 // role: represents
 // This file does not replace any child package.

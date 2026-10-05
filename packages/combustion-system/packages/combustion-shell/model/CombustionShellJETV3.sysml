@@ -1,4 +1,4 @@
-// Source file companion for @jet/combustion-shell
+// Source file companion for @turbine-engine/combustion-shell
 // represents: geometry/Combustion Shell- JET v3.stl
 // role: represents
 // This file does not replace any child package.

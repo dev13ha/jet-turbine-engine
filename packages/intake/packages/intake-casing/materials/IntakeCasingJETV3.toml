@@ -1,9 +1,9 @@
-# Material record for @jet/intake-casing
+# Material record for @turbine-engine/intake-casing
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/intake-casing"
+package = "@turbine-engine/intake-casing"
 part = "IntakeCasingJETV3"
 geometry = "geometry/Intake Casing - JET v3.stl"
 material = "UNKNOWN"

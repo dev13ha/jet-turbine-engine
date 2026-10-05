@@ -3,10 +3,10 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/rear-compression-link"
+name = "@turbine-engine/rear-compression-link"
 version = "1.0.0"
 edition = "2026"
-description = "component package @jet/rear-compression-link version 1.0.0. Geometry files: Rear Compression Link - JET v8.stl."
+description = "component package @turbine-engine/rear-compression-link version 1.0.0. Geometry files: Rear Compression Link - JET v8.stl."
 
 [language]
 kerml = "1.0"

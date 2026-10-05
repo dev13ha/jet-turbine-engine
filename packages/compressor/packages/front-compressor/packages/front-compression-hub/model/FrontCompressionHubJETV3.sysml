@@ -1,4 +1,4 @@
-// Source file companion for @jet/front-compression-hub
+// Source file companion for @turbine-engine/front-compression-hub
 // represents: geometry/Front Compression Hub - JET v3.stl
 // role: represents
 // This file does not replace any child package.

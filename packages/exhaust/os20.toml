@@ -3,17 +3,17 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/exhaust"
+name = "@turbine-engine/exhaust"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/exhaust version 1.0.0."
+description = "assembly package @turbine-engine/exhaust version 1.0.0."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/flare-base" = "@jet/flare-base@^1.0.0"
-"@jet/flare-lever-1" = "@jet/flare-lever-1@^1.0.0"
-"@jet/flare-lever-2" = "@jet/flare-lever-2@^1.0.0"
-"@jet/flare-lever-3" = "@jet/flare-lever-3@^1.0.0"
+"@turbine-engine/flare-base" = "@turbine-engine/flare-base@^1.0.0"
+"@turbine-engine/flare-lever-1" = "@turbine-engine/flare-lever-1@^1.0.0"
+"@turbine-engine/flare-lever-2" = "@turbine-engine/flare-lever-2@^1.0.0"
+"@turbine-engine/flare-lever-3" = "@turbine-engine/flare-lever-3@^1.0.0"

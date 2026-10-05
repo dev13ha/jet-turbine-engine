@@ -1,4 +1,4 @@
-// Source file companion for @jet/rear-compressor
+// Source file companion for @turbine-engine/rear-compressor
 // derivedFrom: geometry/Rear Compression Assembly v8.stl
 // role: assembly-reference
 // This file does not replace any child package.

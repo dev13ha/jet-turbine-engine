@@ -1,9 +1,9 @@
-# Material record for @jet/main-axis
+# Material record for @turbine-engine/main-axis
 # No material specification was present in the source CAD dataset.
 # UNKNOWN must not be treated as a passing material identification.
 
 [material]
-package = "@jet/main-axis"
+package = "@turbine-engine/main-axis"
 part = "MainAxisAssemblyV11"
 geometry = "geometry/Main Axis Assembly v11.stl"
 material = "UNKNOWN"

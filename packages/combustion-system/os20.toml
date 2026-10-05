@@ -3,20 +3,20 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/combustion-system"
+name = "@turbine-engine/combustion-system"
 version = "1.0.0"
 edition = "2026"
-description = "assembly package @jet/combustion-system version 1.0.0. Geometry files: Combustion Chamber Assembly- JET v4.stl. Combustion Chamber Assembly is attached here as reference geometry for the combustion assembly. It does not replace the combustion child packages."
+description = "assembly package @turbine-engine/combustion-system version 1.0.0. Geometry files: Combustion Chamber Assembly- JET v4.stl. Combustion Chamber Assembly is attached here as reference geometry for the combustion assembly. It does not replace the combustion child packages."
 
 [language]
 kerml = "1.0"
 sysml = "2.0"
 
 [dependencies]
-"@jet/combustion-casing" = "@jet/combustion-casing@^1.0.0"
-"@jet/combustion-chamber" = "@jet/combustion-chamber@^1.0.0"
-"@jet/combustion-c-ring" = "@jet/combustion-c-ring@^1.0.0"
-"@jet/combustion-shell" = "@jet/combustion-shell@^1.0.0"
-"@jet/combustion-cap" = "@jet/combustion-cap@^1.0.0"
-"@jet/combustion-stage" = "@jet/combustion-stage@^1.0.0"
-"@jet/fuel-port-cap" = "@jet/fuel-port-cap@^1.0.0"
+"@turbine-engine/combustion-casing" = "@turbine-engine/combustion-casing@^1.0.0"
+"@turbine-engine/combustion-chamber" = "@turbine-engine/combustion-chamber@^1.0.0"
+"@turbine-engine/combustion-c-ring" = "@turbine-engine/combustion-c-ring@^1.0.0"
+"@turbine-engine/combustion-shell" = "@turbine-engine/combustion-shell@^1.0.0"
+"@turbine-engine/combustion-cap" = "@turbine-engine/combustion-cap@^1.0.0"
+"@turbine-engine/combustion-stage" = "@turbine-engine/combustion-stage@^1.0.0"
+"@turbine-engine/fuel-port-cap" = "@turbine-engine/fuel-port-cap@^1.0.0"

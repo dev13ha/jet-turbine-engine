@@ -3,10 +3,10 @@
 # Physical membership is assembly.os20.yaml when this package is an assembly.
 
 [package]
-name = "@jet/main-axis-shaft"
+name = "@turbine-engine/main-axis-shaft"
 version = "1.0.0"
 edition = "2026"
-description = "component package @jet/main-axis-shaft version 1.0.0. Geometry files: Main Axis Shaft- JET v3.stl."
+description = "component package @turbine-engine/main-axis-shaft version 1.0.0. Geometry files: Main Axis Shaft- JET v3.stl."
 
 [language]
 kerml = "1.0"

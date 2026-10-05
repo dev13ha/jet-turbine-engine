@@ -1,4 +1,4 @@
-// Source file companion for @jet/turbine-spacer-2
+// Source file companion for @turbine-engine/turbine-spacer-2
 // represents: geometry/Turbine Spacer-2 -JET v1.stl
 // role: represents
 // This file does not replace any child package.
