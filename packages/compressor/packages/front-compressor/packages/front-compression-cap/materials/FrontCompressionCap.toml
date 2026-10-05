@@ -1,0 +1,13 @@
+# Material record for @jet/front-compression-cap
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/front-compression-cap"
+part = "FrontCompressionCap"
+geometry = "geometry/Front Compression Cap- JET v2.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Package material record. Geometry: Front Compression Cap- JET v2.stl. UNKNOWN."

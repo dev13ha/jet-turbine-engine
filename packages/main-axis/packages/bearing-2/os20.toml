@@ -1,0 +1,13 @@
+# OS20 package manifest (os20.toml). This is the package identity.
+# [dependencies] is dependsOn. It is not physical containment.
+# Physical membership is assembly.os20.yaml when this package is an assembly.
+
+[package]
+name = "@jet/bearing-2"
+version = "1.0.0"
+edition = "2026"
+description = "component package @jet/bearing-2 version 1.0.0. Geometry files: Bearing 2- JET v3.stl."
+
+[language]
+kerml = "1.0"
+sysml = "2.0"

@@ -1,0 +1,13 @@
+# Material record for @jet/unassigned-source
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/unassigned-source"
+part = "Blade1JETV2"
+geometry = "geometry/Blade-1- JET v2.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Filename does not match any requested package. Not assigned to a fan."

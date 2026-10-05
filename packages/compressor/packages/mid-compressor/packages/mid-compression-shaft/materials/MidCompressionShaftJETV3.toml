@@ -1,0 +1,13 @@
+# Material record for @jet/mid-compression-shaft
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/mid-compression-shaft"
+part = "MidCompressionShaftJETV3"
+geometry = "geometry/Mid Compression Shaft- JET v3.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Companion material record for Mid Compression Shaft- JET v3.stl. Identification is UNKNOWN."

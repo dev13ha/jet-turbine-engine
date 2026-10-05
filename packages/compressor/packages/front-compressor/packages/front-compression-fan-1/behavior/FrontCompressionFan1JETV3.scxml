@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @jet/front-compression-fan-1 behavior for Front Compression Fan-1- JET v3.stl. UNKNOWN. -->
+<scxml xmlns="http://www.w3.org/2005/07/scxml"
+       version="1.0"
+       initial="unknown"
+       name="FrontCompressionFan1JETV3">
+  <state id="unknown">
+    <!-- No behavior was present in the source dataset. UNKNOWN is not a pass. -->
+  </state>
+</scxml>

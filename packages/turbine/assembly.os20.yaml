@@ -1,0 +1,62 @@
+spec: os20.assembly/v0
+package: "@jet/turbine"
+version: "1.0.0"
+relation: contains
+note: >
+  Membership only. Transform and mate data were not in the source files.
+  UNKNOWN is not a pass. dependsOn is os20.toml, not this document.
+members:
+  - package: "@jet/turbine-shaft"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-housing"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-fan-1"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-fan-2"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-fan-3"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-fan-4"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-fan-5"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-fan-6"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-spacer-1"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-spacer-2"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-link"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine-link-assembly"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+artifacts:
+  - path: "geometry/Turbine Assembly- JET v9.stl"
+    format: stl
+    role: assembly-reference
+    relation: derivedFrom
+    replaces_children: false

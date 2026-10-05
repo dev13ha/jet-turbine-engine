@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Unassigned Core- JET v2.stl. Not Core Plate- JET v1.stl. The requested Cone - JET v2.stl is not in the dataset. Not treated as the nose cone. -->
+<scxml xmlns="http://www.w3.org/2005/07/scxml"
+       version="1.0"
+       initial="unknown"
+       name="CoreJETV2">
+  <state id="unknown">
+    <!-- No behavior was present in the source dataset. UNKNOWN is not a pass. -->
+  </state>
+</scxml>

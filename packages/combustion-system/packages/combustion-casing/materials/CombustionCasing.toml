@@ -1,0 +1,13 @@
+# Material record for @jet/combustion-casing
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/combustion-casing"
+part = "CombustionCasing"
+geometry = "geometry/Combustion Casing - JET v2.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Package material record. Geometry: Combustion Casing - JET v2.stl. UNKNOWN."

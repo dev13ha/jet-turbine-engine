@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @jet/mid-compression-link behavior for Mid Compression Link - JET v3.stl. UNKNOWN. -->
+<scxml xmlns="http://www.w3.org/2005/07/scxml"
+       version="1.0"
+       initial="unknown"
+       name="MidCompressionLinkJETV3">
+  <state id="unknown">
+    <!-- No behavior was present in the source dataset. UNKNOWN is not a pass. -->
+  </state>
+</scxml>

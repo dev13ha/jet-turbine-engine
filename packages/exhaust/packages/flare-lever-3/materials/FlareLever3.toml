@@ -1,0 +1,13 @@
+# Material record for @jet/flare-lever-3
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/flare-lever-3"
+part = "FlareLever3"
+geometry = "geometry/Flare Lever-3 - JET v1.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Package material record. Geometry: Flare Lever-3 - JET v1.stl. UNKNOWN."

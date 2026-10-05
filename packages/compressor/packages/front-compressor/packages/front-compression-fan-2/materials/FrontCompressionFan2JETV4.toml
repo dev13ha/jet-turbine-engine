@@ -1,0 +1,13 @@
+# Material record for @jet/front-compression-fan-2
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/front-compression-fan-2"
+part = "FrontCompressionFan2JETV4"
+geometry = "geometry/Front Compression Fan-2- JET v4.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Companion material record for Front Compression Fan-2- JET v4.stl. Identification is UNKNOWN."

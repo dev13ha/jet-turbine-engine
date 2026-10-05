@@ -1,0 +1,22 @@
+# OS20 package manifest (os20.toml). This is the package identity.
+# [dependencies] is dependsOn. It is not physical containment.
+# Physical membership is assembly.os20.yaml when this package is an assembly.
+
+[package]
+name = "@jet/turbine-engine"
+version = "1.0.0"
+edition = "2026"
+description = "assembly package @jet/turbine-engine version 1.0.0. Geometry files: Working.stl, Open.stl, Open.skp."
+
+[language]
+kerml = "1.0"
+sysml = "2.0"
+
+[dependencies]
+"@jet/intake" = "@jet/intake@^1.0.0"
+"@jet/compressor" = "@jet/compressor@^1.0.0"
+"@jet/combustion-system" = "@jet/combustion-system@^1.0.0"
+"@jet/main-axis" = "@jet/main-axis@^1.0.0"
+"@jet/turbine" = "@jet/turbine@^1.0.0"
+"@jet/exhaust" = "@jet/exhaust@^1.0.0"
+"@jet/structure" = "@jet/structure@^1.0.0"

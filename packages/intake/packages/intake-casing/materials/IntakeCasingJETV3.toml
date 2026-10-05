@@ -1,0 +1,13 @@
+# Material record for @jet/intake-casing
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/intake-casing"
+part = "IntakeCasingJETV3"
+geometry = "geometry/Intake Casing - JET v3.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Companion material record for Intake Casing - JET v3.stl. Identification is UNKNOWN."

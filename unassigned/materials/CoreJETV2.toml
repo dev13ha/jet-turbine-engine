@@ -1,0 +1,13 @@
+# Material record for @jet/unassigned-source
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/unassigned-source"
+part = "CoreJETV2"
+geometry = "geometry/Core- JET v2.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Not Core Plate- JET v1.stl. The requested Cone - JET v2.stl is not in the dataset. Not treated as the nose cone."

@@ -1,0 +1,38 @@
+spec: os20.assembly/v0
+package: "@jet/rear-compressor"
+version: "1.0.0"
+relation: contains
+note: >
+  Membership only. Transform and mate data were not in the source files.
+  UNKNOWN is not a pass. dependsOn is os20.toml, not this document.
+members:
+  - package: "@jet/rear-compression-fan-1"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/rear-compression-fan-2"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/rear-compression-fan-3"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/rear-compression-hub"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/rear-compression-link"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/rear-compression-structure"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+artifacts:
+  - path: "geometry/Rear Compression Assembly v8.stl"
+    format: stl
+    role: assembly-reference
+    relation: derivedFrom
+    replaces_children: false

@@ -1,0 +1,13 @@
+# Material record for @jet/rear-compression-hub
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/rear-compression-hub"
+part = "RearCompressionHubJETV5"
+geometry = "geometry/Rear Compression Hub - JET v5.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Companion material record for Rear Compression Hub - JET v5.stl. Identification is UNKNOWN."

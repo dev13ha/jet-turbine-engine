@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @jet/turbine-fan-2 behavior for Turbine Fan-2- JET v5.stl. UNKNOWN. -->
+<scxml xmlns="http://www.w3.org/2005/07/scxml"
+       version="1.0"
+       initial="unknown"
+       name="TurbineFan2JETV5">
+  <state id="unknown">
+    <!-- No behavior was present in the source dataset. UNKNOWN is not a pass. -->
+  </state>
+</scxml>

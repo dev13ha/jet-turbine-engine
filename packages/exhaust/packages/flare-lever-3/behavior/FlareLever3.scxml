@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @jet/flare-lever-3 has no authored behavior in the source dataset. -->
+<scxml xmlns="http://www.w3.org/2005/07/scxml"
+       version="1.0"
+       initial="unknown"
+       name="FlareLever3">
+  <state id="unknown">
+    <!-- No behavior was present in the source dataset. UNKNOWN is not a pass. -->
+  </state>
+</scxml>

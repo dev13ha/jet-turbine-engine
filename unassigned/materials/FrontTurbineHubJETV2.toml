@@ -1,0 +1,13 @@
+# Material record for @jet/unassigned-source
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/unassigned-source"
+part = "FrontTurbineHubJETV2"
+geometry = "geometry/Front Turbine Hub- JET v2.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "No front-turbine-hub package was requested. Not treated as the front compression hub."

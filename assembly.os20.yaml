@@ -1,0 +1,52 @@
+spec: os20.assembly/v0
+package: "@jet/turbine-engine"
+version: "1.0.0"
+relation: contains
+note: >
+  Membership only. Transform and mate data were not in the source files.
+  UNKNOWN is not a pass. dependsOn is os20.toml, not this document.
+members:
+  - package: "@jet/intake"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/compressor"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/combustion-system"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/main-axis"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/turbine"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/exhaust"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+  - package: "@jet/structure"
+    transform: UNKNOWN
+    orientation: UNKNOWN
+    mates: UNKNOWN
+artifacts:
+  - path: "geometry/reference/Working.stl"
+    format: stl
+    role: engine-reference
+    relation: derivedFrom
+    replaces_children: false
+  - path: "geometry/reference/Open.stl"
+    format: stl
+    role: presentation-reference
+    relation: derivedFrom
+    replaces_children: false
+  - path: "geometry/reference/Open.skp"
+    format: skp
+    role: sketchup-reference
+    relation: derivedFrom
+    replaces_children: false

@@ -1,0 +1,13 @@
+# Material record for @jet/turbine-fan-6
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/turbine-fan-6"
+part = "TurbineFan6"
+geometry = "geometry/Turbine Fan-6- JET v2.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Package material record. Geometry: Turbine Fan-6- JET v2.stl. UNKNOWN."

@@ -1,0 +1,20 @@
+# OS20 package manifest (os20.toml). This is the package identity.
+# [dependencies] is dependsOn. It is not physical containment.
+# Physical membership is assembly.os20.yaml when this package is an assembly.
+
+[package]
+name = "@jet/mid-compressor"
+version = "1.0.0"
+edition = "2026"
+description = "assembly package @jet/mid-compressor version 1.0.0. Geometry files: Mid Compression Assembly - JET v4.stl."
+
+[language]
+kerml = "1.0"
+sysml = "2.0"
+
+[dependencies]
+"@jet/mid-compression-cap" = "@jet/mid-compression-cap@^1.0.0"
+"@jet/mid-compression-fan" = "@jet/mid-compression-fan@^1.0.0"
+"@jet/mid-compression-link" = "@jet/mid-compression-link@^1.0.0"
+"@jet/mid-compression-shaft" = "@jet/mid-compression-shaft@^1.0.0"
+"@jet/mid-axis-cover" = "@jet/mid-axis-cover@^1.0.0"

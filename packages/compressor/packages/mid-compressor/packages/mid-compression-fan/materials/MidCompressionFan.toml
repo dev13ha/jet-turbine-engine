@@ -1,0 +1,13 @@
+# Material record for @jet/mid-compression-fan
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/mid-compression-fan"
+part = "MidCompressionFan"
+geometry = "geometry/Mid Compression Fan - JET v4.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Package material record. Geometry: Mid Compression Fan - JET v4.stl. UNKNOWN."

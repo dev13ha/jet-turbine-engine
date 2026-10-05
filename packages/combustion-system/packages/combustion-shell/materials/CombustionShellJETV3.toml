@@ -1,0 +1,13 @@
+# Material record for @jet/combustion-shell
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/combustion-shell"
+part = "CombustionShellJETV3"
+geometry = "geometry/Combustion Shell- JET v3.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Companion material record for Combustion Shell- JET v3.stl. Identification is UNKNOWN."

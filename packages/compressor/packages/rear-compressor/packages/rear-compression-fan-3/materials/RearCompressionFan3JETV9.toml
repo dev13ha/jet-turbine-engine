@@ -1,0 +1,13 @@
+# Material record for @jet/rear-compression-fan-3
+# No material specification was present in the source CAD dataset.
+# UNKNOWN must not be treated as a passing material identification.
+
+[material]
+package = "@jet/rear-compression-fan-3"
+part = "RearCompressionFan3JETV9"
+geometry = "geometry/Rear Compression Fan-3- JET v9.stl"
+material = "UNKNOWN"
+grade = "UNKNOWN"
+mass_kg = "UNKNOWN"
+density_g_cm3 = "UNKNOWN"
+note = "Companion material record for Rear Compression Fan-3- JET v9.stl. Identification is UNKNOWN."
