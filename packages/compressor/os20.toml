@@ -29,7 +29,7 @@ target = "os20:@turbine-engine/compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/assembly.os20.yaml"
 
 [[artifacts]]
@@ -44,7 +44,7 @@ target = "os20:@turbine-engine/compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/behavior/Compressor.scxml"
 
 [[artifacts]]
@@ -59,7 +59,7 @@ target = "os20:@turbine-engine/compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/materials/Compressor.toml"
 
 [[artifacts]]
@@ -74,5 +74,5 @@ target = "os20:@turbine-engine/compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/model/Compressor.sysml"

@@ -24,7 +24,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/Blade1JETV2.scxml"
 
 [[artifacts]]
@@ -39,7 +39,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/Blade2JETV7.scxml"
 
 [[artifacts]]
@@ -54,7 +54,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/Blade3JETV5.scxml"
 
 [[artifacts]]
@@ -69,7 +69,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/CompressionFan1JETV2.scxml"
 
 [[artifacts]]
@@ -84,7 +84,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/CoreJETV2.scxml"
 
 [[artifacts]]
@@ -99,7 +99,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/FrontTurbineHubJETV2.scxml"
 
 [[artifacts]]
@@ -114,7 +114,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/RearTurbineHubJETV2.scxml"
 
 [[artifacts]]
@@ -129,7 +129,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/behavior/UnassignedSource.scxml"
 
 [[artifacts]]
@@ -144,7 +144,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Blade-1- JET v2.stl"
 
 [[artifacts]]
@@ -159,7 +159,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Blade-2-JET v7.stl"
 
 [[artifacts]]
@@ -174,7 +174,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Blade-3-JET v5.stl"
 
 [[artifacts]]
@@ -189,7 +189,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Compression Fan - 1 - JET v2.stl"
 
 [[artifacts]]
@@ -204,7 +204,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Core- JET v2.stl"
 
 [[artifacts]]
@@ -219,7 +219,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Front Turbine Hub- JET v2.stl"
 
 [[artifacts]]
@@ -234,7 +234,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/geometry/Rear Turbine Hub- JET v2.stl"
 
 [[artifacts]]
@@ -249,7 +249,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/Blade1JETV2.toml"
 
 [[artifacts]]
@@ -264,7 +264,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/Blade2JETV7.toml"
 
 [[artifacts]]
@@ -279,7 +279,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/Blade3JETV5.toml"
 
 [[artifacts]]
@@ -294,7 +294,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/CompressionFan1JETV2.toml"
 
 [[artifacts]]
@@ -309,7 +309,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/CoreJETV2.toml"
 
 [[artifacts]]
@@ -324,7 +324,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/FrontTurbineHubJETV2.toml"
 
 [[artifacts]]
@@ -339,7 +339,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/RearTurbineHubJETV2.toml"
 
 [[artifacts]]
@@ -354,7 +354,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/materials/UnassignedSource.toml"
 
 [[artifacts]]
@@ -369,7 +369,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/Blade1JETV2.sysml"
 
 [[artifacts]]
@@ -384,7 +384,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/Blade2JETV7.sysml"
 
 [[artifacts]]
@@ -399,7 +399,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/Blade3JETV5.sysml"
 
 [[artifacts]]
@@ -414,7 +414,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/CompressionFan1JETV2.sysml"
 
 [[artifacts]]
@@ -429,7 +429,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/CoreJETV2.sysml"
 
 [[artifacts]]
@@ -444,7 +444,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/FrontTurbineHubJETV2.sysml"
 
 [[artifacts]]
@@ -459,7 +459,7 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/RearTurbineHubJETV2.sysml"
 
 [[artifacts]]
@@ -474,5 +474,5 @@ target = "os20:@turbine-engine/unassigned-source"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "unassigned/model/UnassignedSource.sysml"

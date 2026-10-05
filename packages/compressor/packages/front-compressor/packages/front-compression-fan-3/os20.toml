@@ -24,7 +24,7 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/behavior/FrontCompressionFan3.scxml"
 
 [[artifacts]]
@@ -39,7 +39,7 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/behavior/FrontCompressionFan3JETV4.scxml"
 
 [[artifacts]]
@@ -54,7 +54,7 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/geometry/Front Compression Fan-3- JET v4.stl"
 
 [[artifacts]]
@@ -69,7 +69,7 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/materials/FrontCompressionFan3.toml"
 
 [[artifacts]]
@@ -84,7 +84,7 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/materials/FrontCompressionFan3JETV4.toml"
 
 [[artifacts]]
@@ -99,7 +99,7 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/model/FrontCompressionFan3.sysml"
 
 [[artifacts]]
@@ -114,5 +114,5 @@ target = "os20:@turbine-engine/front-compression-fan-3"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/packages/front-compression-fan-3/model/FrontCompressionFan3JETV4.sysml"

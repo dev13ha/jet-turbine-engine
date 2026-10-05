@@ -24,7 +24,7 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/behavior/TurbineFan6.scxml"
 
 [[artifacts]]
@@ -39,7 +39,7 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/behavior/TurbineFan6JETV2.scxml"
 
 [[artifacts]]
@@ -54,7 +54,7 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/geometry/Turbine Fan-6- JET v2.stl"
 
 [[artifacts]]
@@ -69,7 +69,7 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/materials/TurbineFan6.toml"
 
 [[artifacts]]
@@ -84,7 +84,7 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/materials/TurbineFan6JETV2.toml"
 
 [[artifacts]]
@@ -99,7 +99,7 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/model/TurbineFan6.sysml"
 
 [[artifacts]]
@@ -114,5 +114,5 @@ target = "os20:@turbine-engine/turbine-fan-6"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-fan-6/model/TurbineFan6JETV2.sysml"

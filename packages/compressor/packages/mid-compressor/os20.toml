@@ -31,7 +31,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/assembly.os20.yaml"
 
 [[artifacts]]
@@ -46,7 +46,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/behavior/MidCompressionAssemblyJETV4.scxml"
 
 [[artifacts]]
@@ -61,7 +61,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/behavior/MidCompressor.scxml"
 
 [[artifacts]]
@@ -76,7 +76,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/geometry/Mid Compression Assembly - JET v4.stl"
 
 [[artifacts]]
@@ -91,7 +91,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/materials/MidCompressionAssemblyJETV4.toml"
 
 [[artifacts]]
@@ -106,7 +106,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/materials/MidCompressor.toml"
 
 [[artifacts]]
@@ -121,7 +121,7 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/model/MidCompressionAssemblyJETV4.sysml"
 
 [[artifacts]]
@@ -136,5 +136,5 @@ target = "os20:@turbine-engine/mid-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/mid-compressor/model/MidCompressor.sysml"

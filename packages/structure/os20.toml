@@ -30,7 +30,7 @@ target = "os20:@turbine-engine/structure"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/structure/assembly.os20.yaml"
 
 [[artifacts]]
@@ -45,7 +45,7 @@ target = "os20:@turbine-engine/structure"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/structure/behavior/Structure.scxml"
 
 [[artifacts]]
@@ -60,7 +60,7 @@ target = "os20:@turbine-engine/structure"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/structure/materials/Structure.toml"
 
 [[artifacts]]
@@ -75,5 +75,5 @@ target = "os20:@turbine-engine/structure"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/structure/model/Structure.sysml"

@@ -38,7 +38,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/assembly.os20.yaml"
 
 [[artifacts]]
@@ -53,7 +53,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/behavior/Turbine.scxml"
 
 [[artifacts]]
@@ -68,7 +68,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/behavior/TurbineAssemblyJETV9.scxml"
 
 [[artifacts]]
@@ -83,7 +83,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/geometry/Turbine Assembly- JET v9.stl"
 
 [[artifacts]]
@@ -98,7 +98,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/materials/Turbine.toml"
 
 [[artifacts]]
@@ -113,7 +113,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/materials/TurbineAssemblyJETV9.toml"
 
 [[artifacts]]
@@ -128,7 +128,7 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/model/Turbine.sysml"
 
 [[artifacts]]
@@ -143,5 +143,5 @@ target = "os20:@turbine-engine/turbine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/model/TurbineAssemblyJETV9.sysml"

@@ -32,7 +32,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/assembly.os20.yaml"
 
 [[artifacts]]
@@ -47,7 +47,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/behavior/RearCompressionAssemblyV8.scxml"
 
 [[artifacts]]
@@ -62,7 +62,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/behavior/RearCompressor.scxml"
 
 [[artifacts]]
@@ -77,7 +77,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/geometry/Rear Compression Assembly v8.stl"
 
 [[artifacts]]
@@ -92,7 +92,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/materials/RearCompressionAssemblyV8.toml"
 
 [[artifacts]]
@@ -107,7 +107,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/materials/RearCompressor.toml"
 
 [[artifacts]]
@@ -122,7 +122,7 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/model/RearCompressionAssemblyV8.sysml"
 
 [[artifacts]]
@@ -137,5 +137,5 @@ target = "os20:@turbine-engine/rear-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/rear-compressor/model/RearCompressor.sysml"

@@ -24,7 +24,7 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/behavior/TurbineSpacer2.scxml"
 
 [[artifacts]]
@@ -39,7 +39,7 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/behavior/TurbineSpacer2JETV1.scxml"
 
 [[artifacts]]
@@ -54,7 +54,7 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/geometry/Turbine Spacer-2 -JET v1.stl"
 
 [[artifacts]]
@@ -69,7 +69,7 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/materials/TurbineSpacer2.toml"
 
 [[artifacts]]
@@ -84,7 +84,7 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/materials/TurbineSpacer2JETV1.toml"
 
 [[artifacts]]
@@ -99,7 +99,7 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/model/TurbineSpacer2.sysml"
 
 [[artifacts]]
@@ -114,5 +114,5 @@ target = "os20:@turbine-engine/turbine-spacer-2"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/turbine/packages/turbine-spacer-2/model/TurbineSpacer2JETV1.sysml"

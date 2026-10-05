@@ -32,7 +32,7 @@ target = "os20:@turbine-engine/front-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/assembly.os20.yaml"
 
 [[artifacts]]
@@ -47,7 +47,7 @@ target = "os20:@turbine-engine/front-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/behavior/FrontCompressor.scxml"
 
 [[artifacts]]
@@ -62,7 +62,7 @@ target = "os20:@turbine-engine/front-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/materials/FrontCompressor.toml"
 
 [[artifacts]]
@@ -77,5 +77,5 @@ target = "os20:@turbine-engine/front-compressor"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/compressor/packages/front-compressor/model/FrontCompressor.sysml"

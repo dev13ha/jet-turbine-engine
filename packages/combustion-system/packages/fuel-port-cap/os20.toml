@@ -24,7 +24,7 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/behavior/FuelPortCap.scxml"
 
 [[artifacts]]
@@ -39,7 +39,7 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/behavior/FuelPortCapJETV2.scxml"
 
 [[artifacts]]
@@ -54,7 +54,7 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/geometry/Fuel Port Cap - JET v2.stl"
 
 [[artifacts]]
@@ -69,7 +69,7 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/materials/FuelPortCap.toml"
 
 [[artifacts]]
@@ -84,7 +84,7 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/materials/FuelPortCapJETV2.toml"
 
 [[artifacts]]
@@ -99,7 +99,7 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/model/FuelPortCap.sysml"
 
 [[artifacts]]
@@ -114,5 +114,5 @@ target = "os20:@turbine-engine/fuel-port-cap"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/packages/fuel-port-cap/model/FuelPortCapJETV2.sysml"

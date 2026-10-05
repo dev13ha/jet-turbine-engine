@@ -33,7 +33,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "assembly.os20.yaml"
 
 [[artifacts]]
@@ -48,7 +48,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "behavior/Open.scxml"
 
 [[artifacts]]
@@ -63,7 +63,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "behavior/TurbineEngine.scxml"
 
 [[artifacts]]
@@ -78,7 +78,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "behavior/Working.scxml"
 
 [[artifacts]]
@@ -93,7 +93,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "geometry/reference/Open.skp"
 
 [[artifacts]]
@@ -108,7 +108,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "geometry/reference/Open.stl"
 
 [[artifacts]]
@@ -123,7 +123,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "geometry/reference/Working.stl"
 
 [[artifacts]]
@@ -138,7 +138,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "materials/Open.toml"
 
 [[artifacts]]
@@ -153,7 +153,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "materials/TurbineEngine.toml"
 
 [[artifacts]]
@@ -168,7 +168,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "materials/Working.toml"
 
 [[artifacts]]
@@ -183,7 +183,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "model/Open.sysml"
 
 [[artifacts]]
@@ -198,7 +198,7 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "model/TurbineEngine.sysml"
 
 [[artifacts]]
@@ -213,5 +213,5 @@ target = "os20:@turbine-engine/turbine-engine"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "model/Working.sysml"

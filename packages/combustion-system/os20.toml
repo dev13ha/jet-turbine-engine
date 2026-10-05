@@ -33,7 +33,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/assembly.os20.yaml"
 
 [[artifacts]]
@@ -48,7 +48,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/behavior/CombustionChamberAssemblyJETV4.scxml"
 
 [[artifacts]]
@@ -63,7 +63,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/behavior/CombustionSystem.scxml"
 
 [[artifacts]]
@@ -78,7 +78,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/geometry/Combustion Chamber Assembly- JET v4.stl"
 
 [[artifacts]]
@@ -93,7 +93,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/materials/CombustionChamberAssemblyJETV4.toml"
 
 [[artifacts]]
@@ -108,7 +108,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/materials/CombustionSystem.toml"
 
 [[artifacts]]
@@ -123,7 +123,7 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/model/CombustionChamberAssemblyJETV4.sysml"
 
 [[artifacts]]
@@ -138,5 +138,5 @@ target = "os20:@turbine-engine/combustion-system"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/combustion-system/model/CombustionSystem.sysml"

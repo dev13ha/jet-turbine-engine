@@ -30,7 +30,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/assembly.os20.yaml"
 
 [[artifacts]]
@@ -45,7 +45,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/behavior/MainAxis.scxml"
 
 [[artifacts]]
@@ -60,7 +60,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/behavior/MainAxisAssemblyV11.scxml"
 
 [[artifacts]]
@@ -75,7 +75,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/geometry/Main Axis Assembly v11.stl"
 
 [[artifacts]]
@@ -90,7 +90,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/materials/MainAxis.toml"
 
 [[artifacts]]
@@ -105,7 +105,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/materials/MainAxisAssemblyV11.toml"
 
 [[artifacts]]
@@ -120,7 +120,7 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/model/MainAxis.sysml"
 
 [[artifacts]]
@@ -135,5 +135,5 @@ target = "os20:@turbine-engine/main-axis"
 [artifacts.source]
 provider = "github"
 repo = "dev13ha/jet-turbine-engine"
-revision = "master"
+revision = "1c0e0443213cfdabc38cb68b52196bd23a0c4481"
 path = "packages/main-axis/model/MainAxisAssemblyV11.sysml"
